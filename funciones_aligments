@@ -1,0 +1,8 @@
+#Crearemos la principales funciones en Pseudocódigo para hacer aleneamientos de secuencias, usando la numenclatura de Jorge Jonson
+#Funciones:
+#0. const_matrix: dadas dos secuencias (strings), construir una matrix i x j que incluya en la primera posición de la columna y fila un "-"
+#1. mov_matrix: Función para moverse dentro de una matriz en forma diagonal, izq->derecha, abajo->arriba y guardar la posición del movimiento
+#2. max_global : Función para calcular el número mayor entre tres funciones dadas(mov_matrix) como score0(m, j) = max( TBL[X[m],Y[j]], -1 + score0(m, j+1) )
+#3. max_local : Función para calcular el número mayor entre tres funciones e incluir el 0 dadas como score0(m, j) = max( TBL[X[m],Y[j]], -1 + score0(m, j+1), 0 )
+#4. inicio_ijmatrix: Dada una matiz ij = 0, llenar la primera columana y fila con numeros decrecientes en un valor dado (-2), retorna una matriz con la primera fila y columna llena
+#5. fill_matrix: usar la funcion de max y la matriz inicializada para llenar los valores máximos
