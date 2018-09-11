@@ -1,0 +1,64 @@
+LOCUS       KP794444                 864 bp    DNA     linear   PLN 03-AUG-2016
+DEFINITION  Plukenetia volubilis isolate WCM_10 18S ribosomal RNA gene, partial
+            sequence; internal transcribed spacer 1, 5.8S ribosomal RNA gene,
+            and internal transcribed spacer 2, complete sequence; and 26S
+            ribosomal RNA gene, partial sequence.
+ACCESSION   KP794444
+VERSION     KP794444.1
+KEYWORDS    .
+SOURCE      Plukenetia volubilis
+  ORGANISM  Plukenetia volubilis
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliophyta; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Malpighiales; Euphorbiaceae;
+            Acalyphoideae; Plukenetieae; Plukenetia.
+REFERENCE   1  (bases 1 to 864)
+  AUTHORS   Cardinal-McTeague,W.M. and Gillespie,L.J.
+  TITLE     Molecular phylogeny and pollen evolution of Euphorbiaceae tribe
+            Plukenetieae
+  JOURNAL   Syst. Bot. 41 (2), 329-347 (2016)
+REFERENCE   2  (bases 1 to 864)
+  AUTHORS   Cardinal-McTeague,W.M. and Gillespie,L.J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (09-FEB-2015) Research and Collections, Canadian Museum
+            of Nature, PO Box 3443, Station D, Ottawa, ON K1N 6P4, Canada
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: Geneious v. 8.0.2
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..864
+                     /organism="Plukenetia volubilis"
+                     /mol_type="genomic DNA"
+                     /isolate="WCM_10"
+                     /specimen_voucher="MO:Parada 206"
+                     /db_xref="taxon:316893"
+                     /country="Bolivia"
+     rRNA            <1..173
+                     /product="18S ribosomal RNA"
+     misc_RNA        174..419
+                     /product="internal transcribed spacer 1"
+     rRNA            420..581
+                     /product="5.8S ribosomal RNA"
+     misc_RNA        582..810
+                     /product="internal transcribed spacer 2"
+     rRNA            811..>864
+                     /product="26S ribosomal RNA"
+ORIGIN      
+        1 tacacaccgc ccgtcgctcc taccgattga atggtccggt gaagtgttcg gatcgcggcg
+       61 acgtgggcgg ttcgctgccg gcgacgtcgc gagaagtcca ctgaacctta tcatttagag
+      121 gaaggagaag tcgtaacaag gtttccgtag gtgaacctgc ggaaggatca ttgtcgagac
+      181 ctgctaggca gaacgacccg cgaacacgtc cgttaaaaag aaacgcgggg gcgacgcgga
+      241 cctgtgtggt cccgttcccc cggagccgtc gacgtggggg gatcggaagg caccccccgt
+      301 ggacgcaagg accgaacccg gcgcgggacg cgccaaggac caatgaccga aaaggagacg
+      361 ccgacgcagg tccggaaacg ggtagcctcg gccgcgcgtc gccctctttt gagaaccata
+      421 acgactctcg gcaacggata tcttggctct cgcatcgatg aagaacgcag caaaatgcga
+      481 tacttggtgt gaattgcaga atcccgtgaa tcatcgagtt tttgaacgca agttgcgccc
+      541 gaagcctttc ggccgagggc acgtctgcct gggtgtcacg caaccatcgc ccgcgaaggc
+      601 ctcctctccc ccctcggacg gggaaggggc ggccgccgaa aggcgcgggc ggagttggcc
+      661 tcccgtaaga cacgtctctt gcggttggct taaaatccgg cctcccagcg acgaacgcga
+      721 cgacgatcgg tggttgcaag accctttgat cccgtcggcc gcgtgcgtcc gcgacgcgga
+      781 ggccatcgga acctgacgtc cttcgaccgc gaccccaggt caggcgggac cacccgctga
+      841 gtttaagcat atcaataagc ggag
+//
+
