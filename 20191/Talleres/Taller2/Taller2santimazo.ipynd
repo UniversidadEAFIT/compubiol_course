@@ -1,0 +1,664 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Taller 2 - Python\n",
+    "## Fundamentos en Biología Computacional\n",
+    "## 2019-1, Prof. Javier Correa\n",
+    "Nota: Se calificará que el código sea lo más simple, claro, original y eficiente. No usar funciones no realizadas por ustedes mismos."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "1. Realice un función para expresar cualquier número entero en su conotación factorial. <br>\n",
+    "Ejemplo: factorial(4)<br>\n",
+    "Out: 24"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def fact (y):\n",
+    "    fac=1\n",
+    "    for i in range(1,y+1):\n",
+    "        fac=fac*i\n",
+    "    return fac"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "120"
+      ]
+     },
+     "execution_count": 57,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "fact(5)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "2. Realice un función para expresar la potencia de cualquier número. La función recibe como parámetros la base y el exponencial. <br>\n",
+    "Ejemplo: potencia(4,2)<br>\n",
+    "Out: 16"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def Potencia(bas,exp):\n",
+    "    a=bas\n",
+    "    b=exp \n",
+    "    return a**b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "20736"
+      ]
+     },
+     "execution_count": 14,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Potencia(12,4)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "3. Utilizando las dos funciones anteriormente definidas (factorial y potencia), realice un función para expresar el Coseno de un entero. <br>\n",
+    "Ejemplo: coseno(5)<br>\n",
+    "Out: 0.996194698"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import math\n",
+    "def Potencia(bas,exp):\n",
+    "    a=bas\n",
+    "    b=exp \n",
+    "    return a**b\n",
+    "def fact (y):\n",
+    "    fac=1\n",
+    "    for i in range(1,y+1):\n",
+    "        fac=fac*i\n",
+    "    return fac\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "\n",
+    "def coseno (X):\n",
+    "    k=0\n",
+    "    G=0\n",
+    "    X=(X * math.pi)/180\n",
+    "    for k in range (200):\n",
+    "        Y=(Potencia(-1,k)/fact(2*k))* Potencia(X,2*k)\n",
+    "        G=G+Y\n",
+    "    return G"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.9961946980917454"
+      ]
+     },
+     "execution_count": 68,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "coseno(5) "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "4. Dadas las cantidades de individuos con los genótipos AA, AB y BB. Calcular la frecuencia de los alelos A y B <br>\n",
+    "Ejemplo: FrecuenciaAlelos(12,4,4) <br>\n",
+    "Out: (0.7, 0.3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def Alelos(A,B,C):\n",
+    "    D=A+B+C\n",
+    "    X=(A/D)+(B/D)*1/2\n",
+    "    Y=(B/D)+(B/D)*1/2\n",
+    "    P=[X,Y]\n",
+    "    return P\n",
+    "    \n",
+    "    \n",
+    "   \n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0.7, 0.30000000000000004]"
+      ]
+     },
+     "execution_count": 49,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Alelos(12,4,4)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "5. Dada una cadena de DNA retornar una de (-) RNA en sentido 5'-> 3' <br>\n",
+    "Ejemplo: DNA_to_RNA(\"TCTCTACTCATGTCTGCA\")<br>\n",
+    "Out: GUACUCACGUCUGCUCUC"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def Transcripción(secuencia):\n",
+    "    sustitución = \"\"\n",
+    "    for X in secuencia:\n",
+    "        if(X == \"T\"):\n",
+    "            sustitución += \"C\"\n",
+    "        if(X ==\"A\"):\n",
+    "            sustitución +=\"G\"\n",
+    "        if(X == \"C\"):\n",
+    "            sustitución +=\"U\"\n",
+    "        if(X == \"G\"):\n",
+    "            sustitución +=\"A\"\n",
+    "\n",
+    "    return sustitución [::-1]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'GUACUCACGUCUGCUCUC'"
+      ]
+     },
+     "execution_count": 103,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Transcripción(\"TCTCTACTCATGTCTGCA\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "6. Realizar una función que calcule la Temperatura de Melting Promedio de un par de primers de DNA en grados Celcius. Teniendo en cuenta que; en un oligonucleótido < de 14 nucleótidos, la Tm se calcula multiplicando la cantidad de G+C por 4 y las A+T por 2. Mientras que, si es >= de 14 nt, se debe aplicar la siguiente fórmula (64.9 + 41 * (totalG+C -16.4) / Tamaño sel oligo). <br>\n",
+    "Ejemplo: tempromelt(TCTCTACTCATGTCTGCA, TCGCGTGCACGTG)<br>\n",
+    "Out: 44.88333333333334"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def Tfusión(secuencia):\n",
+    "    sumaAT=0  \n",
+    "    sumaGC=0   \n",
+    "    lsecuencia=list(secuencia)  \n",
+    "    tem=len(secuencia)  \n",
+    "    X=0          \n",
+    "    cond1=64.9      \n",
+    "    cond2=41        \n",
+    "    cond3=16.4      \n",
+    "    cond=14       \n",
+    "    if tem<cond:  \n",
+    "        while X<tem: \n",
+    "            if lsecuencia[X]== 'G' or 'C':  \n",
+    "                sumaGC==sumaGC+1\n",
+    "                X==X+1\n",
+    "            else:\n",
+    "                sumaAT==sumaAT+1   \n",
+    "                X==X+1\n",
+    "        return (sumaGC*4)+(sumaAT*2) \n",
+    "    else:               \n",
+    "        while X<tem:   \n",
+    "            if lsecuencia[X]== 'G' or 'C': \n",
+    "                sumaGC==sumaGC+1\n",
+    "                X=X+1  \n",
+    "            else:\n",
+    "                X=X+1\n",
+    "        return (cond1+cond2*(sumaGC-cond3)/tem) "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "44.52424242424243"
+      ]
+     },
+     "execution_count": 46,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "Tfusión(\"TCTCTACTCATGTCTGCA, TCGCGTGCACGTG\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "7. Hallar la distancia Hamming entre dos secuencias dadas de polipéptidos. <br>\n",
+    "link: https://es.wikipedia.org/wiki/Distancia_de_Hamming <br>\n",
+    "Ejemplo: distancia_Hamming(\"SRSLLLRFLMSRSLLLRFLLFLLLLPPLPLFLLLLPPL\",\"SRSLLLRFLSSRSLLLRFLLFLLLLAALALFLLLLSML\")<br>\n",
+    "Out:6"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def compararpolipéptidos (seq1, seq2):\n",
+    "    X = 0\n",
+    "    longitud = len (seq1)\n",
+    "    for i in range (longitud):\n",
+    "        if seq1 [i] != seq2[i]:\n",
+    "            X =X + 1\n",
+    "    return X"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "6"
+      ]
+     },
+     "execution_count": 19,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "compararpolipéptidos(\"SRSLLLRFLMSRSLLLRFLLFLLLLPPLPLFLLLLPPL\",\"SRSLLLRFLSSRSLLLRFLLFLLLLAALALFLLLLSML\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "8. Dada la tabla de codones estandar, hacer una función para traducir una cadena de DNA empezando desde la posición 1 <br>\n",
+    "Ejemplo: traducir(\"ATGGCGCGTATGAATAGCAATCCGAGCGCATGCCATGTTTGCCATGCGGCTCTGGCGGTCATTGATGCGTGCAATAACAATACCCGTAATAGCAATATCAATAGCTAA\")<br>\n",
+    "Out: Met A R Met N S N P S A C H V C H A A L A V I D A C N N N T R N S N I N S Stop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def traducir(seq):\n",
+    "    codonesamino= {\n",
+    "    'ATA':'I', 'ATC':'I', 'ATT':'I', 'CTT':'L',#Tomada de https://es.scribd.com/document/72871951/Tabla-de-Codones\n",
+    "    'ACA':'T', 'ACC':'T', 'ACG':'T', 'ACT':'T',\n",
+    "    'AAC':'N', 'AAT':'N', 'AAA':'K', 'AAG':'K',\n",
+    "    'AGC':'S', 'AGT':'S', 'AGA':'R', 'AGG':'R',\n",
+    "    'CTA':'L', 'CTC':'L', 'CTG':'L', 'ATG':'Met',\n",
+    "    'CCA':'P', 'CCC':'P', 'CCG':'P', 'CCT':'P',\n",
+    "    'CAC':'H', 'CAT':'H', 'CAA':'Q', 'CAG':'Q',\n",
+    "    'CGA':'R', 'CGC':'R', 'CGG':'R', 'CGT':'R',\n",
+    "    'GTA':'V', 'GTC':'V', 'GTG':'V', 'GTT':'V',\n",
+    "    'GCA':'A', 'GCC':'A', 'GCG':'A', 'GCT':'A',\n",
+    "    'GAC':'D', 'GAT':'D', 'GAA':'E', 'GAG':'E',\n",
+    "    'GGA':'G', 'GGC':'G', 'GGG':'G', 'GGT':'G',\n",
+    "    'TCA':'S', 'TCC':'S', 'TCG':'S', 'TCT':'S',\n",
+    "    'TTC':'F', 'TTT':'F', 'TTA':'L', 'TTG':'L',\n",
+    "    'TAC':'Y', 'TAT':'Y', 'TAA':'Stop', 'TAG':'Stop',\n",
+    "    'TGC':'C', 'TGT':'C', 'TGA':'Stop', 'TGG':'W',}\n",
+    "    \n",
+    "   \n",
+    "    aminoacido = \"\"\n",
+    "    if len(seq)%3 == 0:\n",
+    "        for i in range(0, len(seq), 3):\n",
+    "            codon = seq[i : i+3]\n",
+    "            aminoacido += codonesamino[codon]\n",
+    "    return aminoacido\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'MetARMetNSNPSACHVCHAALAVIDACNNNTRNSNINSStop'"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "traducir(\"ATGGCGCGTATGAATAGCAATCCGAGCGCATGCCATGTTTGCCATGCGGCTCTGGCGGTCATTGATGCGTGCAATAACAATACCCGTAATAGCAATATCAATAGCTAA\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "9. Usando la función anterior, traducir la secuencia de DNA dada en los 6 frames posibles para producir un polipéptido.\n",
+    "Ejemplo: traducirALL(\"ATGGCGCGTATGAATAGCAATCCGAGCGCATGCCATGTTTGCCATGCGGCTCTGGCGGTCATTGATGCGTGCAATAACAATACCCGTAATAGCAATATCAATAGCTAA\")<br>\n",
+    "Out: (Frame1:Met A R Met N S N P S A C H V C H A A L A V I D A C N N N T R N S N I N S Stop, Frame2:W R V Stop I A I R A H A Met F A Met R L W R S L Met R A I T I P V I A I S I A, Frame3:G A Y E Stop Q S E R Met P C L P C G S G G H Stop C V Q Stop Q Y P Stop Stop Q Y Q Stop L, Frame4:L A I D I A I T G I V I A R I N D R Q S R Met A N Met A C A R I A I H T R H, Frame5:Stop L L I L L L R V L L L H A S Met T A R A A W Q T W H A L G L L F I R A, Frame6:S Y Stop Y C Y Y G Y C Y C T H Q Stop P P E P H G K H G Met R S D C Y S Y A P)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 115,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'1:MetARMetNSNPSACHVCHAALAVIDACNNNTRNSNINSStop,2:,3:,4:ARMetNSNPSACHVCHAALAVIDACNNNTRNSNINSStop,5:,6:'"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def frames(Secuencia):\n",
+    "    return (\"1\" + \":\" + traducir(Secuencia) + \",\" + \"2\" + \":\" + traducir(Secuencia[1:]) + \",\" + \"3\" + \":\" + traducir(Secuencia[2:]) + \",\" + \"4\" + \":\" + traducir(Secuencia[3:]) + \",\" + \"5\" + \":\" + traducir(Secuencia[4:]) + \",\" + \"6\" + \":\" + traducir(Secuencia[5:]))\n",
+    "frames(\"ATGGCGCGTATGAATAGCAATCCGAGCGCATGCCATGTTTGCCATGCGGCTCTGGCGGTCATTGATGCGTGCAATAACAATACCCGTAATAGCAATATCAATAGCTAA\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "10. Su código genético es esencialmente el mismo desde que nace hasta que muere, y el mismo en su sangre y su cerebro. Los genes que se activan y desactivan marcan la diferencia entre las células. Esta regulación de los genes está orquestada por un mecanismo inmensamente complejo, que solo hemos empezado a comprender. Una parte central de este mecanismo consiste en moléculas llamadas factores de transcripción que se adhieren al ADN, y al hacerlo, activan o desactivan los genes cercanos. Estas moléculas se unen preferentemente a secuencias específicas de ADN, y este patrón de preferencia de unión puede representarse mediante una tabla de frecuencias de símbolos dados en cada posición del patrón. Más precisamente, cada fila en la tabla corresponde a las bases A, C, G y T, mientras que la columna j refleja cuántas veces aparece la base en la posición j en la secuencia del ADN.\n",
+    "\n",
+    "    Por ejemplo; si nuestro conjunto de secuencias de ADN son TAG, GGT y GGG, la tabla se convierte en\n",
+    "\n",
+    "\n",
+    "|base|\t0|\t1|\t2|\n",
+    "|----|---|---|---|\n",
+    "|A\t|0\t|1\t|0  |\n",
+    "|C\t|0\t|0\t|0  |\n",
+    "|G \t|2\t|2\t|2  |\n",
+    "|T\t|1\t|0\t|1  |\n",
+    "\n",
+    "De esta tabla podemos leer que la base A aparece una vez en el índice 1 en las cadenas de ADN, la base C no aparece en absoluto, la base G aparece dos veces en todas las posiciones y la base T aparece una vez al principio y al final de las cadenas.\n",
+    "\n",
+    "a. Dada una lista de Strings con motivos de 4 nucleótidos, construir una matriz de frecuencias para las posiciones de los 4 nucleótidos. \n",
+    "\n",
+    "Ejemplo:<br>\n",
+    "listamotivos =[\"ACTG\", \"CCAG\", \"AGAG\", \"CGTA\"]<br>\n",
+    "MatrizFrecuencia(listamotivos)<br>\n",
+    "Out: [[2, 0, 2, 1]<br>\n",
+    " [2, 2, 0, 0]<br>\n",
+    " [0, 2, 0, 3]<br>\n",
+    " [0, 0, 2, 0]]<br>\n",
+    " \n",
+    "b. Realizar una función que retorne el nucleótido que más frecuencia obtuvo por posición. Si tienen la misma frecuecia retornar los valores iguales. <br>\n",
+    "Ejemplo:<br>\n",
+    "FrecuenciaMayorNt(MatrizFrecuencia(listamotivos))<br>\n",
+    "Out: [[A:0.5, C:0.5],<br>\n",
+    "[C:0.5,G:0.5],<br>\n",
+    "[A:0.5,T:0.5],<br>\n",
+    "[G:0.75]]<br>"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[[2, 0, 2, 1], [2, 2, 0, 0], [0, 2, 0, 3], [0, 0, 2, 0]]"
+      ]
+     },
+     "execution_count": 39,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "def bases (listas):\n",
+    "    A = [0]*len(listas[0])\n",
+    "    T = [0]*len(listas[0])\n",
+    "    C = [0]*len(listas[0])\n",
+    "    G = [0]*len(listas[0])\n",
+    "    for p in range (len(listas[0])):\n",
+    "        Ao = 0\n",
+    "        To = 0\n",
+    "        Go = 0\n",
+    "        Co = 0\n",
+    "        for i in range (len(listas)):\n",
+    "            if listas[i][p] == 'A':\n",
+    "                Ao = Ao + 1\n",
+    "            elif listas[i][p] == 'T':\n",
+    "                To = To + 1\n",
+    "            elif listas[i][p] == 'G':\n",
+    "                Go = Go + 1\n",
+    "            elif listas[i][p] == 'C':\n",
+    "                Co = Co + 1\n",
+    "        A[p] = As\n",
+    "        C[p] = Cs\n",
+    "        G[p] = Gs\n",
+    "        T[p] = Ts\n",
+    "\n",
+    "    resultado = [A, C, G, T]\n",
+    "    return(resultado)\n",
+    "\n",
+    "numerodebases([\"ACTG\", \"CCAG\", \"AGAG\", \"CGTA\"])\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "(['A', 'C', 0, '0'], [0.5, 0.5])\n",
+      "([0, 'C', 'G', '0'], [0.5, 0.5])\n",
+      "(['A', 0, 0, 'T'], [0.5, 0.5])\n",
+      "([0, 0, 'G', '0'], [0.75])\n"
+     ]
+    }
+   ],
+   "source": [
+    "def pos (xl, pos):\n",
+    "    numerobase = numerodebases([\"ACTG\", \"CCAG\", \"AGAG\", \"CGTA\"])\n",
+    "    frec = [0]*len(numerobases[0])\n",
+    "    for i in range (len(numerobases[0])):\n",
+    "        frec[i] = numerobases[i][posicion]/len(numerobases[0])\n",
+    "        \n",
+    "    return(frec)\n",
+    "\n",
+    "def mayorfrec (lista, posicion):\n",
+    "    freqpos = freqxpos(lista,posicion) \n",
+    "    mayor  = max(freqpos)\n",
+    "    tamaño = 0\n",
+    "    for i in range (len(freqpos)):\n",
+    "        if freqpos[i] == mayor:\n",
+    "            tamaño = tamaño+1\n",
+    "    posmayores = [0]*len(freqpos)\n",
+    "    lista = [0]*tamaño\n",
+    "    \n",
+    "    for i in range (len(freqpos)):\n",
+    "        if freqpos[i] == mayor:\n",
+    "            for j in range (tamano):\n",
+    "                posmayores[i] = i+1\n",
+    "                lista[j] = freqpos[i]\n",
+    "                \n",
+    "                \n",
+    "    return(posmayores,lista)\n",
+    "        \n",
+    "\n",
+    "def total (lista, posicion):\n",
+    "    x = freqrelmayor(lista, posicion)\n",
+    "    for m in range (4):\n",
+    "        if x[0][m] == 1:\n",
+    "            x[0][m] = 'A'\n",
+    "        elif x[0][m] == 2:\n",
+    "            x[0][m] = 'C'\n",
+    "        elif x[0][m] == 3:\n",
+    "            x[0][m] = 'G'\n",
+    "        elif x[0][m] == 4:\n",
+    "            x[0][m] = 'T'\n",
+    "    for w in range (4):\n",
+    "        x[0][m] = str(x[0][m])\n",
+    "    return(x)\n",
+    "\n",
+    "total([\"ACTG\", \"CCAG\", \"AGAG\", \"CGTA\"],0)\n",
+    "\n",
+    "for m in range (4):\n",
+    "    print(total([\"ACTG\", \"CCAG\", \"AGAG\", \"CGTA\"],m))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
