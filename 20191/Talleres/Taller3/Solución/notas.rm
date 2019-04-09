@@ -1,0 +1,14 @@
+Taller 3 grades
+Santiago Mazo	“git, 1A y 1B bien, 1C funcionaría en caso que solo fueran siempre 12 y 14; 2A.1. bien, bien por encontrar la función GC, con esa estrategia crear el diccionario ya es innecesario; 2A.2 se hizo manual, la idea era hacerlo usando una función automática, después usas otra función automática, por qué dejar la primera?; 2A.3 bien por intentar, no gráficos lo que era pero bien; 2B  Sin responder”
+Vanesa Caro	“git, 1A y 1B bien, 1C  bien,; 2A.1  no fue la mejor estrategia pero funcionó, 2A.2 Bien; 2A.3 No respuesta; 2B no respuesta”
+Laura Moreno	“git, 1A bien se puede mejorar, 1B bien, 1C funcionó pero no sería util con otros archivos, evitar el uso de except; 2A.1 pudiste haber creado la función de GC antes o usar las ya establecidas en Bio, 2A.2 no fue la mejor estrategia pero bien, los valores no coinciden con el resultado esperado para el mínimo (Cicer arietinum); 2A.3 si respuesta; 2B sin respuesta”
+Daniela Jaramillo	“git, 1A, 1B y 1C bien, 2A.1 y 2A.2 igual que Santiago Mazo, 2A.3 no respuesta, 2B no respuesta”
+Aura S	“git, 1A se puede mejorar, 1B bien, 1C funcionó pero no sería util con otros archivos, evitar el uso de except y try; 2A y 2B sin respuesta”
+Juliana Zapata	“git, 1A se puede mejorar, 1B bien, 1C falló la función al retornar el anterior; 2A.1 y 2A.2 bien, hacer uso de funciones; 2A.3 Muy bien; 2B bien por intentar aunque la estrategia no fue la apropiada”
+David Carmona	“git, 1A y 1B bien, 1C bien se puede mejorar; 2A.1 bien, 2A.2 bien, 2A.3 bien solo faltó ajustar los valores; 2B bien, de una forma casi manual pero llegaste al resultado, falto la última pregunta”
+Alisson Martinez	“1A y 1B bien, 1C faltó hacer otro loop para consultar ancestro; 2A.1 la función GC no trabaja bien, 2A.2 y 2A.3 bien solo faltó ajustar los datos; 2B no respuesta”
+Carolina Cataño	“1A y 1B bien, 1C no retorna el ancestro; 2A.1 Bien, podrías haber hecho una función para GC; 2A.2 bien; 2A.3 bien!; 2B no respuesta. ”
+Esteban Garzón	“1A y  1B bien, 1C bien tratar de no usar except, misma respuesta de Aura; 2A y 2B no respuesta” Nicolás Zambrano	“1A y  1B bien, 1C bien tratar de no usar except, misma respuesta de Aura; 2A y 2B no respuesta”
+Moises Moreno “1A y 1B bien, 1C bien, 2A bien pero trabajo parecido al De Santiago Mazo; 2B sin respuesta”
+Andrea Ramirez	“1A, 1B bien, 1C bien tratar de no usar except; 2A.1 y 2A.2 bien, 2A.3 no respuesta; 2B no respuesta”
+Valentina Tovar	“1A y 1B bien, 1C bien tratar de no usar except; 2A.1 bien, 2A.2 la idea era hacer una función para que lo hiciera automático; 2A.3 Bien; 2B no respuesta”
