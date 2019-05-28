@@ -1,0 +1,121 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=19;
+	taxlabels
+	FN6688121_Monstera_deliciosa_voucher_MIBzpl01697
+	GQ4343041_Monstera_deliciosa_voucher_PS3002MT01_
+	JN0901091_Monstera_deliciosa_voucher_PS3002MT01_
+	JN0901101_Monstera_deliciosa_voucher_PS3002MT02_
+	JN0901111_Monstera_deliciosa_voucher_PS3002MT03_
+	JN1147621_Monstera_deliciosa_voucher_SBB-1115_
+	JQ5866301_Monstera_tenuis_voucher_BioBot05794_
+	JQ5866311_Monstera_tenuis_voucher_BioBot05795_
+	JQ5866321_Monstera_tenuis_voucher_BioBot05802_
+	JQ5866331_Monstera_tenuis_voucher_BioBot05803_
+	JQ5866341_Monstera_tenuis_voucher_BioBot05813_
+	JQ5866351_Monstera_tenuis_voucher_BioBot06337_
+	JQ5866361_Monstera_tenuis_voucher_BioBot06338_
+	JQ5866371_Monstera_tenuis_voucher_BioBot06339_
+	JQ5899291_Monstera_sp_MHPAA635-08_voucher_RE-5395_
+	JQ5899691_Monstera_sp_MHPAA117-08_voucher_RE-5039-2_
+	JQ5899701_Monstera_sp_MHPAA118-08_voucher_RE-5039-3_
+	JQ5899711_Monstera_sp_MHPAA116-08_voucher_RE-5039-1_
+	KX7837191_Monstera_deliciosa_voucher_Hosam00454_
+;
+end;
+
+begin trees;
+	tree bestREP87 = [&U] (JQ5899291_Monstera_sp_MHPAA635-08_voucher_RE-5395_[&support=100.0,length_mean=0.001383195280000003,length_median=0.00140871,length_sd=0.0014732784402694888,length_hpd95={1.0E-8,0.00426493},length_quant_5_95={1.0E-8,0.00426207},length_range={1.0E-8,0.00720131}]:0.00142,((JQ5899701_Monstera_sp_MHPAA118-08_voucher_RE-5039-3_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5899711_Monstera_sp_MHPAA116-08_voucher_RE-5039-1_[&support=100.0,length_mean=0.001384864310000001,length_median=0.001337905,length_sd=0.001338956574725614,length_hpd95={1.0E-8,0.00404709},length_quant_5_95={1.0E-8,0.00404615},length_range={1.0E-8,0.00673538}]:0.001343,JQ5899691_Monstera_sp_MHPAA117-08_voucher_RE-5039-2_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0)[&support=100.0,length_mean=0.05557030066000004,length_median=0.05514662,length_sd=0.008785920169323216,length_hpd95={0.03857825,0.07158751},length_quant_5_95={0.04129327,0.0698839},length_range={0.03001191,0.08748167},BS=100]:0.055436,(JQ5866351_Monstera_tenuis_voucher_BioBot06337_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5866361_Monstera_tenuis_voucher_BioBot06338_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5866371_Monstera_tenuis_voucher_BioBot06339_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0)[&support=97.89999999999999,length_mean=0.005414624382022472,length_median=0.00519679,length_sd=0.0026318721448994496,length_hpd95={0.00126466,0.01042208},length_quant_5_95={0.0013002,0.01040391},length_range={0.00126466,0.01575126},BS=98]:0.005201,(JN0901111_Monstera_deliciosa_voucher_PS3002MT03_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JN1147621_Monstera_deliciosa_voucher_SBB-1115_[&support=100.0,length_mean=0.0014473995499999968,length_median=0.00138819,length_sd=0.0014011684981216409,length_hpd95={1.0E-8,0.00420065},length_quant_5_95={1.0E-8,0.00419966},length_range={1.0E-8,0.00700861}]:0.001395,JN0901091_Monstera_deliciosa_voucher_PS3002MT01_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,FN6688121_Monstera_deliciosa_voucher_MIBzpl01697[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JN0901101_Monstera_deliciosa_voucher_PS3002MT02_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,GQ4343041_Monstera_deliciosa_voucher_PS3002MT01_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0)[&support=65.10000000000001,length_mean=0.0028441840092165898,length_median=0.00250518,length_sd=0.001501619805222572,length_hpd95={0.00123164,0.00595916},length_quant_5_95={0.00124627,0.00595703},length_range={0.00123164,0.00939484},BS=65]:0.001899)[&support=65.10000000000001,length_mean=0.0027217438863287257,length_median=0.00240369,length_sd=0.0014329418080331548,length_hpd95={0.00119298,0.00561877},length_quant_5_95={0.00119919,0.00541831},length_range={0.00119298,0.00960329},BS=65]:0.001787,KX7837191_Monstera_deliciosa_voucher_Hosam00454_[&support=100.0,length_mean=8.245278000000023E-5,length_median=1.0E-8,length_sd=4.548947913917081E-4,length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,0.00633788}]:0.0,JQ5866301_Monstera_tenuis_voucher_BioBot05794_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5866341_Monstera_tenuis_voucher_BioBot05813_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5866331_Monstera_tenuis_voucher_BioBot05803_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5866321_Monstera_tenuis_voucher_BioBot05802_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0,JQ5866311_Monstera_tenuis_voucher_BioBot05795_[&support=100.0,length_mean=9.999999999999914E-9,length_median=1.0E-8,length_sd="(3.576351545337036e-32+5.840625309806928e-16j)",length_hpd95={1.0E-8,1.0E-8},length_quant_5_95={1.0E-8,1.0E-8},length_range={1.0E-8,1.0E-8}]:0.0)[&support=100.0,length_mean=0.0,length_median=0.0,length_sd=0.0,length_hpd95={0,0},length_quant_5_95={0,0},length_range={0,0},BS=100];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="BS";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="BS";
+	set legend.fontSize=10.0;
+	set legend.isShown=true;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="BS";
+	set nodeLabels.displayAttribute="BS";
+	set nodeLabels.fontName="Agency FB";
+	set nodeLabels.fontSize=16;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=true;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=0;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.01;
+	set scaleAxis.minorTicks=0.005;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=false;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.006;
+	set tipLabels.colorAttribute="Names";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=13;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="equal";
+end;
+
