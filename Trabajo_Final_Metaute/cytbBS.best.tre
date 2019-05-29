@@ -1,0 +1,26 @@
+#NEXUS
+
+begin trees;
+translate
+ 1 'Dacnis-cayana-voucher-STRI-IJL102',
+ 2 'Dacnis-cayana-voucher-STRI-TR-DAC1',
+ 3 'Dacnis-venusta-voucher-LSU-B16024',
+ 4 'Dacnis-venusta-voucher-LSUMZ-B34863',
+ 5 'Dacnis-venusta-voucher-LSUMZ-B2192',
+ 6 'Dacnis-albiventris-voucher-LSUMZ-B28123',
+ 7 'Dacnis-flaviventer-voucher-FMNH-323898',
+ 8 'Dacnis-hartlaubi-voucher-AMNH-181785',
+ 9 'Dacnis-lineata-voucher-FMNH-391223',
+ 10 'Dacnis-nigripes-voucher-FMNH-395733',
+ 11 'Dacnis-viguieri-voucher-UMMZ-152521',
+ 12 'Dacnis-cayana',
+ 13 'Dacnis-venusta-voucher-LSUMZ-B26588',
+ 14 'Dacnis-cayana.copy',
+ 15 'Ramphocelus-passerinii';
+tree bestREP10 = [&U][!GarliScore -3657.613701][!GarliModel  M1 r  17.37212 45.26139 7.59417 2.36875 94.70492 1.00000 e 0.25000 0.25000 0.25000 0.25000 a 0.20312 ](1:0.00174054,(12:0.00267904,(2:0.00273005,(((7:0.03324766,6:0.03438361):0.00239646,((15:0.10425909,(3:0.00219689,((13:0.00088212,5:0.00081247):0.00184091,4:0.00129930):0.00250590):0.06653886):0.00773070,10:0.04839638):0.00381709):0.00107511,((11:0.02606012,9:0.02391034):0.00395085,8:0.03516092):0.00338667):0.03151329):0.00163311):0.00090252,14:0.00083974);
+end;
+begin paup;
+clear;
+gett file=cytbBS.best.tre storebr;
+lset userbr nst=6 rmat=(17.372118 45.261391 7.594168 2.368746 94.704918) base=eq  rates=gamma shape=0.203121 ncat=4 pinv=0.000000;
+end;

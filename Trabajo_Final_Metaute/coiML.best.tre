@@ -1,0 +1,20 @@
+#NEXUS
+
+begin trees;
+translate
+ 1 'Dacnis-cayana-voucher-LGEMA-9684',
+ 2 'Dacnis-cayana-voucher-LGEMA-1305',
+ 3 'Dacnis-cayana-voucher-USNM-Birds-607973',
+ 4 'Dacnis-cayana-voucher-USNM-Birds-627205',
+ 5 'Dacnis-cayana-voucher-USNM-Birds-607048',
+ 6 'Dacnis-lineata-voucher-USNM-Birds-625301',
+ 7 'Dacnis-cayana-voucher-BDUFMG-3271',
+ 8 'Dacnis-cayana-voucher-1522',
+ 9 'Ramphocelus-passerinii-voucher-534-13';
+tree bestREP6 = [&U][!GarliScore -2160.284981][!GarliModel  M1 r  1.00000 10.77378 1.00000 1.00000 10.77378 1.00000 e 0.25696 0.26711 0.23563 0.24030 p 0.15084 ](4:0.00000001,((6:0.00000001,9:4.92553584):0.04861810,(2:0.00000001,7:0.00664262,8:0.00000001):0.01674714):0.01346660,1:0.00000001,(5:0.00000001,3:0.00000001):0.00311101);
+end;
+begin paup;
+clear;
+gett file=coiML.best.tre storebr;
+lset userbr nst=2 trat=5.376607  base=( 0.256959 0.267110 0.235635) rates=equal pinv=0.150840;
+end;

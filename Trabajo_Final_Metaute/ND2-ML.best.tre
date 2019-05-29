@@ -1,0 +1,21 @@
+#NEXUS
+
+begin trees;
+translate
+ 1 'Ramphocelus-passerinii',
+ 2 'Dacnis-cayana',
+ 3 'Dacnis-venusta-voucher-LSUMZ-B26588',
+ 4 'Dacnis-venusta-voucher-LSUMZ-B-26588',
+ 5 'Dacnis-lineata-voucher-FMNH-391223',
+ 6 'Dacnis-flaviventer-voucher-FMNH-323898',
+ 7 'Dacnis-albiventris-voucher-LSUMZ-B-28123',
+ 8 'Dacnis-cayana-voucher-STRI-IJL102',
+ 9 'Dacnis-cayana-voucher-STRI-TR-DAC1',
+ 10 'Dacnis-cayana-voucher-LSUMZ-B-15077';
+tree bestREP7 = [&U][!GarliScore -3298.600146][!GarliModel  M1 r  1.00000 20.94448 1.00000 1.00000 20.94448 1.00000 e 0.25000 0.25000 0.25000 0.25000 a 0.26922 ]((3:0.00000001,4:0.00000001):0.05051545,(((6:0.06028560,((8:0.00525506,(9:0.00474035,10:0.00324981):0.00160799):0.00174416,2:0.00120851):0.07923124):0.01154481,7:0.05662694):0.00568265,5:0.06550360):0.06024898,1:0.25499046);
+end;
+begin paup;
+clear;
+gett file=ND2-ML.best.tre storebr;
+lset userbr nst=2 trat=10.472239  base=eq  rates=gamma shape=0.269216 ncat=4 pinv=0.000000;
+end;
