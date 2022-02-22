@@ -1,0 +1,179 @@
+#! /bin/bash #08/02/2022/ FedericoRamirezM/Version2
+echo 'Número de nuecleotidos:'
+grep -v '>' sequence.fasta | sed -e 's/\(.\)/&\n/g' | wc | awk '{print $3-$1}'
+echo 'Explicación:grep -v me aisla la linea que con el código, y sed me la elimina. wc me cuenta la totalidad de lineas y caracteres como saltos de linea, así que con el awk  le restamos a la totalidad de caracteres el salto de linea'
+    1  pwd
+    2  ls -al
+    3  cd biocomp
+    4  pwd
+    5  mkdir Ejercicios_linux
+    6  cd Ejercicios_linux/
+    7  pwd
+    8  cat > Task1_FedericoRamirez.sh
+    9  ls -al
+   10  nano Task1_FedericoRamirez.sh 
+   11  rm Task1_FedericoRamirez.sh 
+   12  ls -al
+   13  cat > Task1_FedericoRamirez.sh
+   14  LS -AL
+   15  ls -al
+   16  nanao Task1_FedericoRamirez.sh 
+   17  nano Task1_FedericoRamirez.sh 
+   18  explorer.exe .
+   19  nano Task1_FedericoRamirez.sh 
+   20  chmod 777 Task1_FedericoRamirez.sh 
+   21  ls -l Task1_FedericoRamirez.sh 
+   22  ./Task1_FedericoRamirez.sh 
+   23  nano Task1_FedericoRamirez.sh 
+   24  ./Task1_FedericoRamirez.sh sequence.fasta
+   25  sh Task1_FedericoRamirez.sh sequence.fasta
+   26  nano Task1_FedericoRamirez.sh 
+   27  sh Task1_FedericoRamirez.sh sequence.fasta
+   28  nano Task1_FedericoRamirez.sh 
+   29  ./Task1_FedericoRamirez.sh sequence.fasta
+   30  nano Task1_FedericoRamirez.sh 
+   31  sh Task1_FedericoRamirez.sh sequence.fasta
+   32  nano Task1_FedericoRamirez.sh 
+   33  sh Task1_FedericoRamirez.sh sequence.fasta
+   34  nano Task1_FedericoRamirez.sh 
+   35  ./Task1_FedericoRamirez.sh sequence
+   36  ./Task1_FedericoRamirez.sh sequence.fasta
+   37  sh Task1_FedericoRamirez.sh sequence.fasta
+   38  man grep
+   39  nano Task1_FedericoRamirez.sh 
+   40  sh Task1_FedericoRamirez.sh sequence.fasta
+   41  nano Task1_FedericoRamirez.sh 
+   42  ./Task1_FedericoRamirez.sh sequence.fasta
+   43  nano Task1_FedericoRamirez.sh 
+   44  ./Task1_FedericoRamirez.sh sequence.fasta
+   45  sh Task1_FedericoRamirez.sh sequence.fasta
+   46  nano Task1_FedericoRamirez.sh 
+   47  ./Task1_FedericoRamirez.sh sequence.fasta
+   48  sh Task1_FedericoRamirez.sh sequence.fasta
+   49  nano Task1_FedericoRamirez.sh 
+   50  sh Task1_FedericoRamirez.sh sequence.fasta
+   51  nano Task1_FedericoRamirez.sh 
+   52  sh Task1_FedericoRamirez.sh sequence.fasta
+   53  nano Task1_FedericoRamirez.sh 
+   54  sh Task1_FedericoRamirez.sh sequence.fasta
+   55  nano Task1_FedericoRamirez.sh 
+   56  sh Task1_FedericoRamirez.sh sequence.fasta
+   57  ./Task1_FedericoRamirez.sh sequence.fasta
+   58  sh Task1_FedericoRamirez.sh sequence.fasta
+   59  nano Task1_FedericoRamirez.sh 
+   60  sh Task1_FedericoRamirez.sh sequence.fasta
+   61  nano Task1_FedericoRamirez.sh 
+   62  sh Task1_FedericoRamirez.sh sequence.fasta
+   63  nano Task1_FedericoRamirez.sh 
+   64  sh Task1_FedericoRamirez.sh sequence.fasta
+   65  nano Task1_FedericoRamirez.sh 
+   66  sh Task1_FedericoRamirez.sh sequence.fasta
+   67  nano Task1_FedericoRamirez.sh 
+   68  sh Task1_FedericoRamirez.sh sequence.fasta
+   69  nano Task1_FedericoRamirez.sh 
+   70  sh Task1_FedericoRamirez.sh sequence.fasta
+   71  nano Task1_FedericoRamirez.sh 
+   72  sh Task1_FedericoRamirez.sh sequence.fasta
+   73  nano Task1_FedericoRamirez.sh 
+   74  sh Task1_FedericoRamirez.sh sequence.fasta
+   75  nano Task1_FedericoRamirez.sh 
+   76  sh Task1_FedericoRamirez.sh sequence.fasta
+   77  nano Task1_FedericoRamirez.sh 
+   78  sh Task1_FedericoRamirez.sh sequence.fasta
+   79  nano Task1_FedericoRamirez.sh 
+   80  sh Task1_FedericoRamirez.sh sequence.fasta
+   81  nano Task1_FedericoRamirez.sh 
+   82  sh Task1_FedericoRamirez.sh sequence.fasta
+   83  nano Task1_FedericoRamirez.sh 
+   84  sh Task1_FedericoRamirez.sh sequence.fasta
+   85  nano Task1_FedericoRamirez.sh 
+   86  sh Task1_FedericoRamirez.sh sequence.fasta
+   87  nano Task1_FedericoRamirez.sh 
+   88  sh Task1_FedericoRamirez.sh sequence.fasta
+   89  nano Task1_FedericoRamirez.sh 
+   90  sh Task1_FedericoRamirez.sh sequence.fasta
+   91  nano Task1_FedericoRamirez.sh 
+   92  sh Task1_FedericoRamirez.sh sequence.fasta
+   93  nano Task1_FedericoRamirez.sh 
+   94  sh Task1_FedericoRamirez.sh sequence.fasta
+   95  nano Task1_FedericoRamirez.sh 
+   96  sh Task1_FedericoRamirez.sh sequence.fasta
+   97  nano Ta
+   98  nano Task1_FedericoRamirez.sh 
+   99  sh Task1_FedericoRamirez.sh sequence.fasta
+  100  nano Task1_FedericoRamirez.sh 
+  101  sh Task1_FedericoRamirez.sh sequence.fasta
+  102  nano Task1_FedericoRamirez.sh 
+  103  sh Task1_FedericoRamirez.sh sequence.fasta
+  104  nano Task1_FedericoRamirez.sh 
+  105  sh Task1_FedericoRamirez.sh sequence.fasta
+  106  nano Task1_FedericoRamirez.sh 
+  107  sh Task1_FedericoRamirez.sh sequence.fasta
+  108  nano Task1_FedericoRamirez.sh 
+  109  sh Task1_FedericoRamirez.sh 
+  110  nano Task1_FedericoRamirez.sh 
+  111  sh Task1_FedericoRamirez.sh 
+  112  sh Task1_FedericoRamirez.sh sequence.fasta
+  113  nano Task1_FedericoRamirez.sh 
+  114  sh Task1_FedericoRamirez.sh sequence.fasta
+  115  nano Task1_FedericoRamirez.sh 
+  116  sh Task1_FedericoRamirez.sh 
+  117  nano Task1_FedericoRamirez.sh 
+  118  sh Task1_FedericoRamirez.sh sequence.fasta
+  119  nano Task1_FedericoRamirez.sh 
+  120  sh Task1_FedericoRamirez.sh sequence.fasta
+  121  nano Task1
+  122  nano Task1_FedericoRamirez.sh 
+  123  sh Task1_FedericoRamirez.sh sequence.fasta
+  124  nano Task1_FedericoRamirez.sh 
+  125  sh Task1_FedericoRamirez.sh sequence.fasta
+  126  nano Task1_FedericoRamirez.sh 
+  127  sh Task1_FedericoRamirez.sh sequence.fasta
+  128  nano Task1_FedericoRamirez.sh 
+  129  sh Task1_FedericoRamirez.sh sequence.fasta
+  130  nano Task1_FedericoRamirez.sh 
+  131  sh Task1_FedericoRamirez.sh sequence.fasta
+  132  cat Task1_FedericoRamirez.sh > reporte.txt
+  133  history >> reporte.txt 
+  134  explorer.exe .
+  135  pwd
+  136  cd/biocomp
+  137  explorer.exe .
+  138  cd /biocomp/Ejercicios_linux
+  139  mkdir biocomp1
+  140  cd biocomp1
+  141  mkdir Ejercicios_linux2
+  142  cd Ejercicios_linux2
+  143  cat > Task1v2_FedericoRM.sh
+  144  ls -al
+  145  nano Task1v2_FedericoRM.sh 
+  146  pwd
+  147  ls -al
+  148  cd biocomp1/Ejercicios_linux2/
+  149  nano Task1v2_FedericoRM.sh
+  150  ls -lth
+  151  cd biocomp1/Ejercicios_linux2/
+  152  nano Task1v2_FedericoRM.sh
+  153  explorer.exe .
+  154  chmod 700 Task1v2_FedericoRM.sh
+  155  ls -l 
+  156  sh Task1v2_FedericoRM.sh sequence.fasta
+  157  nano Task1v2_FedericoRM.sh
+  158  sh Task1v2_FedericoRM.sh 
+  159  nano Task1v2_FedericoRM.sh
+  160  sh Task1v2_FedericoRM.sh 
+  161  nano Task1v2_FedericoRM.sh
+  162  sh Task1v2_FedericoRM.sh 
+  163  nano Task1v2_FedericoRM.sh
+  164  sh Task1v2_FedericoRM.sh sequence.fasta
+  165  nano Task1v2_FedericoRM.sh
+  166  sh Task1v2_FedericoRM.sh sequence.fasta
+  167  nano Task1v2_FedericoRM.sh
+  168  sh Task1v2_FedericoRM.sh sequence.fasta
+  169  nano Task1v2_FedericoRM.sh
+  170  sh Task1v2_FedericoRM.sh sequence.fasta
+  171  cat Task1v2_FedericoRM.sh > reportv2.txt
+  172  ls -al
+  173  mv reportv2.txt reportev2.txt 
+  174  ls -al
+  175  history >> reportev2.txt 
