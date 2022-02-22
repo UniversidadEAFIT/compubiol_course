@@ -1,0 +1,23 @@
+#!/bin/bash
+#06022022
+
+#calculate the number of nucleotides in a sequence
+
+grep -v ">" sequence.fasta | awk '{s+=length($1)}END{print s}'
+    1  cd Desktop/
+    2  mkdir Biocomp
+    3  cd Biocomp/
+    4  mkdir ejercicios-linux
+    5  cd ejercicios-linux/
+    6  nano task1-amaliamunera.sh
+    7  chmod u=rwx task1-amaliamunera.sh 
+    8  chmod g=rwx task1-amaliamunera.sh 
+    9  ls -l task1-amaliamunera.sh 
+   10  ./task1-amaliamunera.sh sequence.fasta 
+   11  grep -v ">" sequence.fasta | awk '{s+=length($1)}END{print s}'
+   12  grep -v ">" sequence.fasta | awk '{s+=length($1)}END{print s}'
+   13  ls -l
+   14  ./task1-amaliamunera.sh sequence.fasta 
+   15  task1-amaliamunera.sh > reporte.txt
+   16  cat task1-amaliamunera.sh > reporte.txt 
+   17  history >> reporte.txt
