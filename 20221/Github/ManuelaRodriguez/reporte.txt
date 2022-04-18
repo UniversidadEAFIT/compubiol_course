@@ -1,0 +1,20 @@
+#!/bin/bash 
+#02-07-2021/ManuelaRodriguez
+Tail -n +2 sequence.fasta | wc -c 
+
+  168  nano Task1_ManuelaRodriguez.sh
+  169  Bash Task1_ManuelaRodriguez.sh
+  170  nano Task1_ManuelaRodriguez.sh
+  171  Bash Task1_ManuelaRodriguez.sh
+  172  nano Task1_ManuelaRodriguez.sh
+  173  Bash Task1_ManuelaRodriguez.sh
+  174  nano Task1_ManuelaRodriguez.sh
+  175  Bash Task1_ManuelaRodriguez.sh
+  176  nano Task1_ManuelaRodriguez.sh
+  177  Bash Task1_ManuelaRodriguez.sh
+  178  nano Task1_ManuelaRodriguez.sh
+  179  Bash Task1_ManuelaRodriguez.sh
+  180  nano Task1_ManuelaRodriguez.sh
+  181  Bast Task1_ManuelaRodriguez.sh
+  182  Bash Task1_ManuelaRodriguez.sh
+  183  cat Task1_ManuelaRodriguez.sh > reporte.txt

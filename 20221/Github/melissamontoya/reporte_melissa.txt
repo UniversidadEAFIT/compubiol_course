@@ -1,0 +1,43 @@
+#!/bin/bash
+
+    1  ls
+    2  mkdir MMD_montoya
+    3  ls
+    4  cd MMD_montoya
+    5  mkdir biocomp
+    6  cd bicomp
+    7  cd biocomp
+    8  mkdir Ejercicios_linux
+    9  cd Ejercicios_linux
+   10  nano Task1_melissa.sh
+   11  ls
+   12  tail -n+2 sequence.fasta | wc -c
+   13  nano Task1_melissa.sh 
+   14  less sequence.fasta
+   15  wc -l
+   16  wc -l sequence.fasta
+   17  grep ">" sequence.fasta
+   18  grep "BX571856.[1-41468]" sequence.fasta
+   19  rm --help
+   20  cat sequence.fasta
+   21  awk '(NR>1)' sequence.fasta
+   22  awk '(NR>1)' sequence.fasta | wc -c
+   23  tail -n+2 sequence.fasta | wc -c
+   24  nano Task1_melissa
+   25  chmod --help
+   26  chmod -r+x Task1_melissa.sh
+   27  chmod
+   28  chmod -l
+   29  ls -l
+   30  chmod r Task1_melissa.sh
+   31  nano Task1_melissa.sh
+   32  nano Task1_melissa
+   33  nano Task1_melissa.sh
+   34  nano Task_melissa.sh
+   35  nano Task1_melissa.sh
+   36  chmod +rwx Task1_melissa.sh
+   37  nano Task1_melissa.sh
+   38  ./Task1_melissa.sh
+   39  cat Task_melissa.sh > reporte_melissa.txt
+   40  history >> reporte.txt
+   41  history >> reporte_melissa.txt

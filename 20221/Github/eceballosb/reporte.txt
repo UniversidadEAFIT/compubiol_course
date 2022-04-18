@@ -1,0 +1,24 @@
+#!/bin/bash
+#08022022/Estefania
+awk '(NR > 1)' sequence.fasta  | wc -c
+
+    1  mkdir biocomp
+    2  ls
+    3  cd biocomp
+    4  mkdir Ejercicios_linux
+    5  ls
+    6  cd Ejercicios_linux
+    7  cat > Task1_Estefania.sh
+    8  awk 'NR > 1' sequence.fasta
+    9  awk '(NR > 1)' sequence.fasta
+   10  awk '(NR > 1)' sequence.fasta | wc -c
+   11  nano Task1_Estefania.sh 
+   12  chmod 1 Task1_Estefania.sh 
+   13  ls -l
+   14  chmod 7 Task1_Estefania.sh 
+   15  ls -l
+   16  ./Task1_Estefania.sh sequence.fasta
+   17  chmod +rwx Task1_Estefania.sh 
+   18  ./Task1_Estefania.sh sequence.fasta
+   19  cat Task1_Estefania.sh > reporte.txt
+   20  history >> reporte.txt
