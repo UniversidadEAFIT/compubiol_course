@@ -1,0 +1,58 @@
+# Reconstrucción filogenética por métodos de distancia (Maximum-Likelihood y UPGMA) de las levaduras del cepario EA-ED 226 de la Universidad EAFIT
+
+
+# Introduccción
+A lo largo de la historia de la humanidad, las levaduras han sido utilizadas para generar productos de alto valor, como pan, cerveza, vino, etc... Hoy en día, entendiendo los procesos de fermentación que dan lugar a las bebidas alcohólicas y diversos alimentos, las levaduras siguen siendo fundamentales para la industria alimenticia y además, han sido relevantes en el ámbito investigativo, con *Saccharomyces cerevisiae* como organismo modelo gracias a sus características biológicas (Kopecká et al., 2012).
+Teniendo en mente la crisis planetaria actual, diferentes idustrias han buscando migrar hacia una cadena productiva más sostenible. En particular, la industria cosmética cada vez le apuesta más a los ingredientes de origen natural y biológico (vegetal o microbiano) pues generan un menor impacto en el medio ambiente y son menos nocivos para la piel. Con respecto a los microorganismos, las iniciativas que han surgido para encontrar compuestos útiles generalmente se centran en los metabolitos producidos por bacterias (Goyal & Jerold, 2021), sin embargo, hay evidencia de que las levaduras también son productoras de compuestos de interés, como agentes antioxidantes y blanqueadores (Censi et al., 2021).
+Para evaluar el potencial uso en la industria cosmética de un compuesto generado por levaduras, es necesario aislar dichos microorganismos y extraer el compuesto producido; también es fundamental identificar la levadura, pues la identificación permite realizar una búsqueda óptima de literatura sobre la producción de proteínas y metabolitos que hayan sido reportados en la especie. 
+En la Universidad EAFIT, se consolidó el cepario EA-ED 226 a partir de levaduras derivadas de residuo agroindusrial del café, y con el fin de identificar las especies de levaduras que lo componen, para generar una revisión de literatura y eventualmente evaluar los metabolitos potencialmente útiles para la industria cosmética, se realizó una PCR de ITS de las 9 cepas constituyentes del cepario. Los amplicones fueron secuenciados por Sanger en Corea del Sur.
+
+El "nuclear ribosomal internal transcribed spacer" (ITS) es la región del DNA más comunmente usada para la identificación de hongos, pues es la región que mejor distancia intra-inter específica ha mostrado en distintos grupos de hongos (Schoch et al., 2012), por lo que ha sido propuesto como código de barras. No obstante, se ha observado que el ITS no posee la suficiente resolución para la identificación hasta especie, por lo que debe ser complementado con datos morfológicos o de otros genes (Fajarningsih, 2016).
+
+
+# Objetivo
+Las reconstrucciones filogenéticas son hipótesis propuestas por los investigadores para esclarecer las relaciones filogenéticas entre organismos. Considerando la limitación de la identificación molecular con ITS para hongos, no es posible identificar con certeza las levaduras del cepario EA-Ed 226 de la Universidad EAFIT, no obstante, se puede hacer un análisis de distancias para evaluar la similitud que hay entre las levaduras del cepario, y entre las cepas del cepario y otras levaduras.
+Entonces, las preguntas que busca responder este trabajo son: ¿Qué similitud hay entre las secuencias de las levaduras del cepario EA-ED 226 de la Universidad EAFIT? y¿Cuáles son las especies que comparten una mayor similitud con las secuencias de las levaduras del cepario EA-ED 226 de la Universidad EAFIT?
+
+Para dar respuesta a la primera interrogante, se hará una reconstrucción filogenética con distintos métodos (UPGMA y Maximun Likelihood) entre las secuencias de las levaduras del cepario. Ahora, para estimar la cercanía de las secuencias de las levaduras del cepario con otros géneros y especies, se harán reconstrucciones filogenéticas con los mismos métodos mencionados anteriormente, usando las secuencias del cepario y secuencias de especies relacionadas depositadas en el NCBI.
+
+
+# Metodología
+Para este análisis se utilizaron secuencias (Sanger) de ITS1 de 9 cepas de levaduras del cepario EA-ED 226 de la Universidad EAFIT.
+En primer lugar, se trimaron las secuencias de ITS1 de cada cepa en Geneious Prime, a partir del cromatograma y la calidad de las bases allí mostrada. 
+Una vez trimadas las secuencias, se exportaron en formato .fasta y se alinearon en MEGA con MUSCLE, junto a una secuencia de ITS1 de *Penicillium digitatum* (Código de accesión JN942856.1). Con dicho alineamiento, se realizó una reconstrucción filogenética por métodos de distancia: con UPGMA (método p-distance y 500 réplicas de bootstrap) y con Maximum-Likelihood (modelo Tamura-Nei y 100 réplicas de bootstrap).
+Luego, se realizó un nBLAST en el NCBI para tener una idea del género al cual pertenece cada cepa y se descargaron secuencias de especies del género: 
+*Pichia fermentans* KY363457.1, KM402060.1 & GU237048.1
+*Pichia kluyveri* KY580402.1, KY580394.1 & KY580389.1
+*Rhodotorula mucilaginosa* MT476908.1 & MT443941.1
+*Rhodotorula glutninis* NR_073294.1
+Se alinearon las secuencias en MEGA con MUSCLE y se realizó el mismo procedimiento descrito anteriormente para generar las recontrucciones filogenéticas.
+
+
+# Resultados & Discusión
+En el BLAST, para las cepas 2-8, la mayoría de resultados arrojados pertenecieron al género *Pichia*, por lo que las secuencias descargadas pertenecieron a *Pichia kluyveri* y *Pichia fermentans*. Las cepas 9 y 10, difirieron en el BLAST del resto, siendo más similares a levaduras del género *Rhodotorula*, en específico, *Rhodotorula mucilaginosa*.
+
+## Reconstrucción de secuencias del Cepario EA-ED 226
+![UPGMA] ()
+![Maximum-Likelihood] ()
+
+En UPGMA y en Maximum-Likelihood hay agrupaciones consistentes entre sí, a pesar de que el soporte en Maximum-Likelihood es mucho peor (en la mayoríade clados no es bueno) que en UPGMA. En ambos árboles puede observarse que 9 y 10 están estrechamente relacionados y difieren del resto de secuencias, y también puede verse que 5, 7 y 2 son similares entre sí, al igual que 6, 4, 3 y 8. JN942856.1 pertenece a ITS de *Penicillium digitatum*, y fue agregado como grupo externo, no obstante, en Maximum-Likelihood el árbol resultante no ubicó dicha secuencia como grupo externo.
+
+## Reconstrucción de secuencias del Cepario EA-ED 226 y de secuencias extraidas del NCBI.
+![UPGMA] ()
+![Maximum-Likelihood] ()
+
+En este caso, los árboles resultantes de la reconstrucción por UPGMA y Maximum-Likelihood no son consistentes entre sí. UPGMA tiene un mejor soporte en los clados resultantes que Maximum-Likelihood. De nuevo, puede observarse una agrupación de 9 y 10, esta vez con las dos secuencias de *Rhodotorula mucilaginosa* en ambos árboles, con *Rhodotorula glutinis*  como grupo hermano, sugiriendo similitud entre las levaduras 9 y 10 y *Rhodotorula mucilaginosa*. El resto de secuencias del cepario no fueron agrupadas en los dos árboles con una secuencia de referencia, lo cual pudo haber sido un error en la elección de especies (puede que las levaduras no sean de ninguna de las 2 especies de *Pichia* descargadas), por lo que no es posible determinar ni sugerir similitud entre las secuencias del cepario y las especies de *Pichia* analizadas.
+
+
+# Conclusión
+En el laboratorio, las cepas 9 y 10 poseen una coloración rojiza y un olor particular característico de *Rhodotorula mucilaginosa*, así, teniendo en cuenta su morfología y el resultado obtenido para dichas secuencias en este trabajo, aunque no se puede afirmar que las cepas son *Rhodotorula mucilaginosa* a menos que haya información de otros genes, es posible que así sea.
+Para el resto de levaduras del cepario, no fue posible generar una aproximación a especie, solo es posible determinar que pertenecen al género *Pichia*.
+
+
+# Referencias
+Kopecká, J., Matoulková, D. & Němec, M. (2012). Yeast and its uses. Kvasny Prum. 58(11–12), 326–335.
+Goyal, N., Jerold, F. Biocosmetics: technological advances and future outlook. Environ Sci Pollut Res (2021). https://doi.org/10.1007/s11356-021-17567-3
+Censi, R., Vargas Peregrina, D., Gigliobianco, M. R., Lupidi, G., Angeloni, C., Pruccoli, L., Tarozzi, A., et al. (2021). New Antioxidant Ingredients from Brewery By-Products for Cosmetic Formulations. Cosmetics, 8(4), 96. MDPI AG. Retrieved from http://dx.doi.org/10.3390/cosmetics8040096
+Schoch, C. L., Seifert, K. A., Huhndorf, S., Robert, V., Spouge, J. L., Levesque, C. A., Crous, P. W. (2012). Nuclear ribosomal internal transcribed spacer (ITS) region as a universal DNA barcode marker for Fungi. Proceedings of the National Academy of Sciences, 109(16), 6241–6246. doi:10.1073/pnas.1117018109 
+Fajarningsih, N. (2016). Internal Transcribed Spacer (ITS) as Dna Barcoding to Identify Fungal Species: a Review. Squalen Bulletin of Marine and Fisheries Postharvest and Biotechnology, 11(2), 37-44.
