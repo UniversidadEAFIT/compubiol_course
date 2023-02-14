@@ -1,0 +1,80 @@
+#!/bin/bash #Feb8/brian
+
+sed '1d' sequence.fasta | wc -m
+
+  
+  506  mkdir biocomp
+  507  mkdir Ejercicios_linux
+  508  rm -i Ejercicios_linux/
+  509  rm -d Ejercicios_linux/
+  510  cd biocomp/
+  511  mkdir Ejercicios_linux
+  512  cd Ejercicios_linux/
+  513  cat Task1_brian.sh
+  514  cat
+  515  chmod Task1_brian.sh
+  516  nano Task1_brain.sh
+  517  ls
+  518  nano Task1_brain.sh
+  519  ls
+  520  touch Task1_brian.sh
+  521  la
+  522  ls
+  523  nano Task1_brain.sh
+  524  ls
+  525  ls
+  526  nano Task1_brain.sh
+  527  nano Task1_brain.sh 
+  528  ls -l
+  529  ls
+  530  grep help
+  531  grep -h
+  532  grep -v
+  533  ls | grep -v '^Task'
+  534  ls | grep '^Task'
+  535  ls
+  536  ls | grep '^Task'
+  537  ls | grep -v '^Task'
+  538  nano Task1_brain.sh 
+  539  ls -l
+  540  chmod a+rwx Task1_brain.sh 
+  541  ./Task1_brain.sh 
+  542  nano Task1_brain.sh 
+  543  ./Task1_brain.sh 
+  544  ./Task1_brain.sh 
+  545  nano Task1_brain.sh 
+  546  ./Task1_brain.sh 
+  547  wc -m sequence.fasta 
+  548  ls
+  549  ls | grep -v '^Task'
+  550  ls | grep -v '^Task' | sed"1d"
+  551  ls | grep -v '^Task' | sed "1d"
+  552  nano sequence.fasta 
+  553  sed "1d" sequence.fasta 
+  554  sed "1d" > sequence.fasta
+  555  nano sequence.fasta 
+  556  ls | grep -v '^Task' | wc -m
+  557  ls | grep -v '^Task' | wc 
+  558  ls | grep -v '^Task' | wc m
+  559  ls | grep -v '^Task' | wc
+  560  ls | grep -v '^Task' | wc -m
+  561  ls | grep -v '^Task' | wc -m $line
+  562  ls | grep -v '^Task' 
+  563  wc -m sequence.fasta 
+  564  cat Task1_brain.sh  > repo
+  565  nano repo
+  566  nano Task1_brain.sh 
+  567  nano Task1_brain.sh 
+  568  chmod a+rwx Task1_brain.sh 
+  569  ./Task1_brain.sh  sequence.fasta
+  570  nano Task1_brain.sh 
+  571  ./Task1_brain.sh  sequence.fasta
+  572  wc -m sequence.fasta 
+  573  ./Task1_brain.sh  sequence.fasta
+  574  nano Task1_brain.sh 
+  575  ls -l
+  576  ./Task1_brain.sh sequence.fasta
+  577  nano Task1_brain.sh 
+  578  ./Task1_brain.sh
+  579  cat Task1_brain.sh > reporte.txt
+  580  history >> reporte.txt

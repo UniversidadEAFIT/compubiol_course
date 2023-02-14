@@ -1,0 +1,22 @@
+#!/bin/bash #7-02-22/Mariana_Echeverri
+
+grep -v ">" sequence.fasta | wc | awk '{print $3-$1}' 
+
+ 
+
+  168  clar 
+  169  clear 
+  170  cd Desktop
+  171  mkdir Biocomp
+  172  cd Biocomp
+  173  mkdir Ejercicios_linux
+  174  cd Ejercicios_linux
+  175  nano Task1_MarianaEcheverri.sh
+  176  ls 
+  177  ls -1
+  178  ls -l
+  179  chmod 777 Task1_MarianaEcheverri.sh
+  180  ls -l 
+  181  nano Task1_MarianaEcheverri.sh
+  182  ./Task1_MarianaEcheverri.sh
+  183  cat Task1_MarianaEcheverri.sh > Reporte.txt

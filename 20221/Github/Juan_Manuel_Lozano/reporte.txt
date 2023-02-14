@@ -1,0 +1,263 @@
+ #!/bin/bash
+#8/02/22/JuanLozano
+tail -n+2 sars_delta.fasta | wc -c
+
+    1  echo
+    2  echo Lozano
+    3  man echo
+    4  pwd
+    5  mkdir Lozano
+    6  man
+    7  man echo
+    8  ls Lozano
+    9  ls
+   10  mkdir JMLA
+   11  ls
+   12  man ls
+   13  ls -a
+   14  ls -l
+   15  ls -a -l
+   16  ls -al
+   17  man ls
+   18  cd Lozano
+   19  cd JMLA
+   20  cd /home/clase
+   21  cd Lozano
+   22  cd /JMLA
+   23  cd /home/clase
+   24  ls
+   25  ls -a
+   26  cd ..
+   27  pwd
+   28  cd /home/clase
+   29  pwd
+   30  cd JMLA
+   31  pwd
+   32  cd .
+   33  pwd
+   34  cd ..
+   35  pwd
+   36  ..
+   37  cd ..
+   38  pwd
+   39  cd /home/clase
+   40  cd JMLA
+   41  cd Lozano
+   42  cd ..
+   43  pwd
+   44  cd Lozano
+   45  cd /JMLA
+   46  cd ..
+   47  cd JMLA
+   48  cd ../Lozano
+   49  cd .
+   50  pwd
+   51  mkdir Sebastian
+   52  pwd
+   53  cd ../Sebastian
+   54  cd ..
+   55  mkdir Sebastian
+   56  cd ../Sebastian
+   57  cd Sebastian
+   58  cd ../Lozano
+   59  ls -ha > lista.txt
+   60  ls
+   61  ls -a
+   62  ls -l
+   63  cd /home/clase
+   64  ls
+   65  ls -lha > lista.txt
+   66  pwd
+   67  cd Loznao
+   68  cd Lozano/
+   69  ls -lha > lista.txt
+   70  ls
+   71  pwd
+   72  cd ../Sebastian
+   73  pwd
+   74  cd ../Lozano
+   75  mv . >/Sebastian
+   76  mv lista.txt . > /Sebastian
+   77  mv lista.txt . > ../Sebastian
+   78  mv lista.txt ../Sebastian
+   79  pwd
+   80  ls
+   81  cd ../Sebastian
+   82  ./lista ../Lozano
+   83  mv .lista.txt ../Lozano
+   84  mv ./lista.txt ../Lozano
+   85  ls
+   86  ls -a
+   87  cd ../Lozano
+   88  ls -a
+   89  mv lista.txt listita.txt
+   90  ls -a
+   91  ls -l
+   92  mv listita.txt ../JMLA
+   93  cd ../JMLA
+   94  ls
+   95  cd ../Lozano
+   96  mv /home/clase/JMLA/listita.txt ../Sebastian
+   97  cd ../Sebastian
+   98  ls
+   99  cd ../Lozano
+  100  mv ../Sebastian/listita.txt ../Sebastian/listota.txt
+  101  cd ../Sebastian
+  102  ls -a
+  103  mv listota.txt lista.txt
+  104  ls -a
+  105  cd ../Lozano
+  106  cp ../Sebastian/lista.txt ../JMLA
+  107  cd ../JMLA
+  108  ls -a
+  109  cd ../Sebastian
+  110  ls -a
+  111  mv lista.txt listita.txt
+  112  ls -a
+  113  cp listita.txt ../Lozano/listota.txt
+  114  cd ../Lozano
+  115  ls -a
+  116  cd ..
+  117  pwd
+  118  cp ../Lozano/listota.txt ../JMLA/listita.txt
+  119  cp /home/clase/Lozano/listota.txt ../JMLA/listita.txt
+  120  cp /home/clase/Lozano/listota.txt /home/clase./JMLA/listita.txt
+  121  cp Lozano/listota.txt JMLA/listita.txt
+  122  cd ../Sebastian
+  123  cd /Sebastian
+  124  pwd
+  125  cd /Sebastian
+  126  cd Sebastian
+  127  ls -a
+  128  cd ../JMLA
+  129  ls -a
+  130  cd ../Lozano
+  131  ls -a
+  132  rm ../Sebastian
+  133  rm ../Sebastian/listita.txt 
+  134  cd ../Sebastian
+  135  ls -a
+  136  rm -r Sebastian/
+  137  rm -r Sebastian
+  138  rm -r /Sebastian
+  139  rm -r Sebastian/
+  140  man rm
+  141  cd ../Lozano
+  142  rm -r Sebastian/
+  143  cd ..Sebastian/ 
+  144  cd /home/clase
+  145  ls -a
+  146  cd /Lozano
+  147  cd Lozano
+  148  ls -a
+  149  mv listota.txt .lista.txt
+  150  ls -a
+  151  cd ../JMLA
+  152  ls -a
+  153  rm ../
+  154  rm listita.txt
+  155  ls -a
+  156  mv lista.txt lista2.txt
+  157  ls -a
+  158  cd /home
+  159  cd /home/clase
+  160  cp Downloads/sequence.fasta ../Lozano
+  161  Descargas/sequence.fasta /JMLA
+  162  explorer.exe.
+  163  explorer.exe .
+  164  cp Red/wsl$/Ubuntu/home/clase/sequence /JMLA
+  165  cp Red/wsl$/Ubuntu/home/clase/sequence Red/wsl$/Ubuntu/home/clase/JMLA
+  166  cp Red/wsl$/Ubuntu/home/clase/sequence Red/wsl$/Ubuntu/home/clase/JMLA[2~[2~[2~[2~
+  167  ls
+  168  rm -r Sebastian
+  169  ls
+  170  explorer.exe .
+  171  cd Lozano
+  172  cp sequence.fasta ../Lozano
+  173  cp sequence.fasta ../JMla
+  174  cp sequence.fasta ../JMLA
+  175  mv ../sequence.fasta ../JMLA
+  176  cd ../JMLA
+  177  ls
+  178  cat sequence.fasta
+  179  less sequence.fasta
+  180  wc sequence.fasta
+  181  man wc
+  182  wc -c sequence.fasta
+  183  head
+  184  man head
+  185  head -1 sequence.fasta
+  186  wc -3 sequence.fasta
+  187  mkdir MMD_montoya
+  188  cat > Task1_yourname.sh
+  189  ls
+  190  cd MMD_montoya
+  191  cat > Task_melissa.sh
+  192  nano
+  193  cd MMD_montoya
+  194  ls
+  195  nano Task_melissa.sh
+  196  nano Task_melissa.sh 
+  197  nano Task_melissa.sh
+  198  grep ">" Task_melissa.sh
+  199  ls
+  200  grep ">" sequence.fasta
+  201  head -3 sequence.fasta
+  202  wc -1 sequence.fasta
+  203  wc -l sequence.fasta
+  204  wc -c sequence.fasta
+  205  grep ">" sequence.fasta | wc-c
+  206  grep ">" sequence.fasta | wc -c
+  207  wc -c
+  208  wc -c sequence.fasta
+  209  wc -c < sequence.fasta
+  210  tale n+2 sequence.fasta
+  211  tail n+2 sequence.fasta
+  212  tail -n+2 sequence.fasta
+  213  tail -n+2 sequence.fasta | wc -c 
+  214  wc -c sequence.fasta
+  215  grep ">" sequence.fasta
+  216  nano Task_melissa.sh
+  217  chmod u+x deploy.sh
+  218  chmod u+x Task_melissa.sh
+  219  ./Task_melissa.sh sequence.fasta
+  220  ./Task_melissa.sh
+  221  cat Task_melissa.sh > reporte.txt
+  222  history >> reporte.txt
+  223  ls
+  224  cd MMD_montoya
+  225  nano Task_melissa.sh
+  226  cd Lozano
+  227  ls
+  228  explorer.exe
+  229  explorer.exe/Lozano
+  230  explorer.exe /Lozano
+  231  ls
+  232  mkdir biocomp
+  233  ls
+  234  cd biocomp
+  235  mkdir Ejercicios_linux
+  236  ls
+  237  cd Ejercicios_linux
+  238  cat > Task1_lozano.sh
+  239  nano Task1_lozano.sh
+  240  tail -n+2 Task1_lozano.sh | wc -c
+  241  tail -n+2 sars_delta | wc -c
+  242  tail -n+2 sars_delta.fasta | wc -c
+  243  nano Task1_lozano.sh
+  244  ls
+  245  chmod +rwx Task1_lozano.sh 
+  246  ls -l
+  247  ./Task1_lozano.sh sars_delta
+  248* .Task1_lozano
+  249  nano Task1_lozano.sh
+  250  ./Task1_lozano.sh sars_delta
+  251  ./Task1_lozano.sh sars_delta.fasta
+  252  nano Task1_lozano.sh
+  253  ./Task1_lozano.sh sars_delta.fasta
+  254  nano Task1_lozano.sh
+  255  ./Task1_lozano.sh sars_delta.fasta
+  256  cat Task1_Lozano.sh > reporte.txt
+  257  cat Task1_lozano.sh > reporte.txt
+  258  history >> reporte
+  259  history >> reporte.txt
