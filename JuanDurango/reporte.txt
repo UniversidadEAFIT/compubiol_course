@@ -1,0 +1,27 @@
+  322  pwd
+  323  ls
+  324  cd ..
+  325  pwd
+  326  cd ..
+  327  pwd
+  328  cd /mnt/d/OneDrive - Universidad EAFIT/Computacional/Ejercicios_Linux
+  329  cd /mnt/d/"OneDrive - Universidad EAFIT"/Computacional/Ejercicios_Linux
+  330  vi Task1_JuanDurango.sh
+  331  tail -n +2 file | wc -l sequence.fasta
+  332  tail -n +2 sequence.fasta | wc -l 
+  333  wc -l sequence.fasta
+  334  wc sequence.fasta
+  335  wc -l sequence.fasta
+  336  tail -n +2 sequence.fasta | wc
+  337  tail -n +2 sequence.fasta | wc -c
+  338  vi Task1_JuanDurango.sh 
+  339  mkfie Task1_JuanDurango.sh
+  340  mkfile Task1_JuanDurango.sh
+  341  cat Task1_JuanDurango.sh
+  342  vi Task1_JuanDurango.sh 
+  343  ./Task1_yourname.sh secuencia.fasta
+  344  vi Task1_JuanDurango.sh 
+  345  ./Task1_yourname.sh secuencia.fasta
+  346  script ./Task1_yourname.sh secuencia.fasta
+  347  cat Task1_JuanDurango.sh > reporte.txt
+  348  history >> reporte.txt
