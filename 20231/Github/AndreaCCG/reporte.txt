@@ -1,0 +1,126 @@
+!/bin/bash
+12Feb/Andrea Carrillo
+#nombre archivo secuencia
+secuencia=sequence.fasta
+#contar nucleotidos
+nucleotidos=$(grep -v ">" $secuencia | tr -d "\n" | wc -m)
+#imprimir resultado
+echo "La secuencia de ADN tiene $nucleotidos nucleotidos."
+    1  LS
+    2  ls
+    3  cd
+    4  ls -a
+    5  ssh
+    6  ssh man%
+    7  man ssh
+    8  echo "Hello world"
+    9  echo $SHELL
+   10  ls
+   11  pwd
+   12  mkdir
+   13  mkdir Clasecomp1
+   14  vim
+   15  ls
+   16  bash Prueba1.txt
+   17  ls
+   18  echo Prueba1.txt
+   19  vim Prueba1.txt
+   20  ls
+   21  bash Prueba1.txt
+   22  vim Prueba1.txt
+   23  ls
+   24  ls -l
+   25  ls
+   26  vim Pruebadna
+   27  cat Pruebadna
+   28  vim Pruebadna
+   29  nano Pruebadna 
+   30  ls
+   31  bash Pruebadna
+   32  bash Pruebadna.sh
+   33  ls
+   34  cat words.txt
+   35  vim 
+   36  vim multiplicacion.txt
+   37  mv multiplicacion.txt multiplicacion.sh
+   38  ls
+   39  ls -lh
+   40  chmod +x multiplicacion.sh
+   41  ls -lh
+   42  bash multiplicacion.sh
+   43  vim 
+   44  mv comparacion.txt comparacion.sh #mv para cambiar de texto a ejecutable
+   45  ls #veo a ver si está el ejecutable
+   46  ls -lh #reviso permisos de ejecutable (comparación.sh)
+   47  chmod +x comparacion.sh
+   48  ls -lh
+   49  bash comparacion.sh
+   50  cat comparacion.sh
+   51  vim comparacion.sh
+   52  bash comparacion.sh
+   53  vim comparacion.sh
+   54  bash comparacion.sh
+   55  history
+   56  python3 -v
+   57  conda
+   58  mkdir biocomp #Creo carpeta llamada biocomp
+   59  cd biocomp
+   60  cd biocomp_linux # con cd me posiciono en carpeta biocomp y luego con otro mkdir creo carpeta acá
+   61  cd biocomp
+   62  mkdir biocomp
+   63  cd biocomp 
+   64  mkdir Ejercicios_linux
+   65  vim Task1_Andrea.sh
+   66  cd Ejercicios_linux
+   67  cd
+   68  ls
+   69  cd biocomp
+   70  cp C:\Users\andre\Downloads\sequence.fasta
+   71  C:\Users\andre\Downloads\sequence.fasta.
+   72  ls
+   73  cp C:\Users\andre\Downloads\sequence.fasta.
+   74  cp sequence.fasta.
+   75  cd Downloads
+   76  cd Descargas
+   77  cd Ejercicios_linux
+   78  cd biocomp
+   79  cd Ejercicios_linux
+   80  ls
+   81  vim Task1_Andrea.sh
+   82  echo Task1_Andrea.sh
+   83  cat Task1_Andrea.sh
+   84  cd biocomp
+   85  cd /
+   86  cd biocomp
+   87  ls
+   88  cd biocomp
+   89  biocomp
+   90  cd Ejercicios_linux
+   91  cd
+   92  mkdir biocomp
+   93  cd biocomp
+   94  ls
+   95  cd biocomp
+   96  ls
+   97  vim Task1_Andrea.sh
+   98  ls -lh
+   99  cd Ejercicios_linux
+  100  ls -lh
+  101  cd .
+  102  cd ..
+  103  ls -lh
+  104  chmod +x Task1_Andrea.sh
+  105  cd biocomp
+  106  ls
+  107  cd Ejercicios_linux
+  108  ls
+  109  vim
+  110  vim Task1_Andrea.sh
+  111  ./Task1_Andrea.sh sequence.fasta
+  112  ls
+  113  ls -lh
+  114  chmod +x Task1_Andrea.sh
+  115  ls -lh
+  116  ./Task1_Andrea.sh sequence.fasta
+  117  cat Task1_Andrea.sh >reporte.txt
+  118  history >> reporte.txt
