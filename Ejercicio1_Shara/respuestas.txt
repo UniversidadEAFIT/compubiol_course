@@ -1,0 +1,19 @@
+Ç a.	¿Cuántos genes parálogos hay en el genoma? 
+Las secuencias homólogas son parálogas si estas están separadas por un evento de duplicación. En otras palabras, si un gen de un organismo se duplica para ocupar dos o más posiciones diferentes en el mismo genoma, entonces las copias serían parálogas. 
+En este caso al realizar el blast arrojó tres hits, sin embargo sólo uno de ellos tenía un porcentaje de identidad lo suficientemente alto (84%) para decir que la secuencia era casi idéntica al gen de referencia (gen de la beta-tubulina). Los otros dos hits podrían ser sólo secuencias con cierta similitud o fragmentos de este mismo gen, más no el gen completo. Por lo tanto, se concluye que no hay presencia de genes parálogos.
+Sin embargo, gracias al porcentaje de identidad se podría sugerir que el gen de interés es un posible gen ortólogo, es decir, un gen que comparten el último ancestro común y cuya divergencia se debe a la especiación.
+b.	¿Cumplirán la misma función?
+
+Las secuencias o genes parálogos típicamente tienen la misma función o similar; no obstante, muchas veces este no es el caso debido a que no existe la misma fuerza selectiva original sobre la copia duplicada del gen; ésta puede adquirir nuevas funciones por mutación y por selección.
+
+En este caso como se determinó que no había genes parálogos, es de esperarse que el único gen que es lo suficientemente similar al de referencia si cumpla con la función de la beta.-tubulina. 
+
+c.	 con cual trabajaría para hacer filogenética?
+
+En este caso no trabajaría con un gen parálogo para hacer filogenética gracias a que los genes parálogos son genes que debido a una duplicación, ya no comparten el último ancestro. Por el contrario si trabajaría con un gen ortólogo, ya que el ancestro común sigue siendo el mismo y el cambio que se encuentra se debe posiblemente a la especiación. Por lo que se concluye, que si es posible trabajar con el gen para reconstruir filogenias gracias a que este no es parálogo y podría ser ortólogo. 
+
+d.	¿Cómo extraer las secuencias de estos genes?
+
+Para extraer la secuencia de estos genes, en este caso, puede hacerse uso de los resultados proporcionados por el blast (alineamiento local), gracias a que estos muestran las posiciones de referencias tanto iniciales como finales (“sstart” y “send”, respectivamente) de los hits, por lo que podría hacerse usos de biopython para pedirle que recorra toda la secuencia hasta ubicar estos puntos para  que extraiga los nucleótidos delimitados por esta región y los ponga en una lista
+
+
