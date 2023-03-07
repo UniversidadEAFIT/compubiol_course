@@ -1,0 +1,23 @@
+#!/bin/bash 
+
+#09/02/2023 Shara Jaramillo
+
+wc -m btequilensis.fasta
+
+
+   78  vim btequilensis.fasta
+   79  vim Task1_Shara.sh
+   80  ./Task1_Shara.sh > prueba3
+   81  less Task1_Shara.sh
+   82  vim Task1_Shara.sh
+   83  ./Task1_Shara.sh > prueba3
+   84  history > historial.txt
+   85  ls
+   86  more historial.txt
+   87  vim Task1_Shara.sh Task1_Shara.sh
+   88  ./Task1_Shara.sh > prueba4
+   89  ls
+   90  more prueba4
+   91  ./Task1_Shara.sh > prueba5
+   92  more prueba5
+   93  cat Task1_Shara.sh > reporte.txt

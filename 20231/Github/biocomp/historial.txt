@@ -1,0 +1,16 @@
+   68  pwd
+   69  nano btequilensis.fasta
+   70  vim Task1_Shara.sh
+   71  ./ Task1_Shara.sh btequilensis.fasta
+   72  ./Task1_Shara.sh btequilensis.fasta > prueba2
+   73  ls
+   74  ls -oh *sh
+   75  chmod 755 Task1_Shara.sh
+   76  ./Task1_Shara.sh btequilensis.fasta > prueba2
+   77  man wc
+   78  vim btequilensis.fasta
+   79  vim Task1_Shara.sh
+   80  ./Task1_Shara.sh > prueba3
+   81  less Task1_Shara.sh
+   82  vim Task1_Shara.sh
+   83  ./Task1_Shara.sh > prueba3

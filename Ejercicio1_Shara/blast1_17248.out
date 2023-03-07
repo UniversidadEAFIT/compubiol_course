@@ -1,0 +1,14 @@
+
+
+Building a new DB, current time: 02/28/2023 16:44:44
+New DB name:   /home/sjaramil16/slurm/Ejercicio1/databases/reference
+New DB title:  hongo
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 254 sequences in 0.549056 seconds.
+
+
+DQ060923.1	LATX02000187.1	84.247	146	23	0	233	378	514770	514915	2.00e-33	143
+DQ060923.1	LATX02000187.1	83.636	55	9	0	434	488	514918	514972	3.46e-06	52.8
+DQ060923.1	LATX02000187.1	87.500	40	5	0	3	42	514539	514578	1.61e-04	47.3
