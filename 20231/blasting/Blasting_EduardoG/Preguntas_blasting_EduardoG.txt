@@ -1,0 +1,20 @@
+Preguntas ejercicio blasting
+
+Eduardo Giraldo
+
+1. ¿Cuantos genes parálogos hay en el genoma?
+Al estarse analizando secuencias de 2 especies distintas el blast hecho nos estaria mostrando secuencias ortologas; ya que para evaluar genes paralogos se utilizan secuencias de una misma especie por lo que no encontramos genes paralogos originados por duplicacion en este analisis.
+
+2. ¿cumplirán la misma función?
+Al realizar el blast en la linea de comandos con un porcentaje de identidad mayor a 90% no se encontraron coincidencias, al bajarlo a 87% se encontro una secuencia de 40 nucleotidos, al bajarla a 84% se encuentra otra secuencia de 146 nucleotidos, esta longitud de secuencia y este porcnetaje de identidad nos indica que es probable que que estas secuencias cumplan la misma función.
+
+3. ¿con cual trabajaría para hacer filogenética?
+Confirmando que las secuencias obtenidas son ortologas sugeriria trabajar con la secuencia más larga debido a que en esta se pueden distinguir mayor cantidad de SNP's y por consiguiente un analisis filogenetico más acertado.
+
+4. ¿cómo extraer las secuencias de estos genes?
+Para extraer la secuencia de los genes encontrados se puede utilizar el identificador del hit encontrado para posteriormente copiarlo y buscarlo en la base de datos del genoma con el que se realizo el analisis. 
+
+Para la realizacion de este trabajo se descargo el archivo .fna de un genoma ensamblado de M. roreri para posteriormente generar una base de datos con este archivo y hacer un blast comparando con una secuencia dada de A. muscaria, al realizar el analisis directamente desde la lineas de comando se obtiene un maximo de 3 hits sin llegar a un porcentaje de identidad de 90%; pero al realizarlo desde el slurm se observan multiples resultados con porcentajes de identidad de 90%, para responder las preguntas se uso el resultado dado desde la linea de comando.
+
+En la carpeta sen encuentran todos los archivos utilizados a excepcion del archivo .fna del genoma ensamblado ya que github me impedio subirlo por su tamaño y los resultados del blast ejecutado tanto desde la linea de comandos como desde el slurm.
+ 
