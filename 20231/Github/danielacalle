@@ -1,6 +1,6 @@
 #Tarea 1 Daniela Calle
 #!/bin/bash
-#14 de febrero 2023 - Santiago Giraldo. 
+#14 de febrero del 2023. 
 ls -oh *sh
 open sequence.txt
 echo "El total de nucleotidos dentro de la secuencia es de (bp):"
