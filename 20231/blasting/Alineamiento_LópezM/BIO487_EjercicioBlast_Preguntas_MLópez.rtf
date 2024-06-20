@@ -1,0 +1,43 @@
+Ejercicio BLAST
+
+Mariana López González - 28 de febrero de 2023
+
+Archivos adjuntados dentro de la misma carpeta
+
+Dentro del archivo blast_hongo.sh no se consideró el parámetro de identidad mayor a 90% para realizar más análisis, no obstante se deja como comentario dentro del archivo.
+
+Preguntas: 
+
+1. ¿Cuantos genes parálogos hay en el genoma?
+
+Ninguno, al ver los resultados vemos que se obtuvieron 3 hits con los parámetros considerados. Entre estos 3 hits vemos que dos de ellos no contienen los suficientes nucleótidos para ser considerado como un gen (trazas); por otro lado, sí se obtuvo una secuencia con 146 nucleótidos por lo que podemos decir que si hay similitud y por ende un alineamiento local. Al solo presentar un solo hit válido determinamos que este gen no es parálogo, sino ortólogo. 
+
+2. ¿Cumplirán la misma función?
+
+Al ser un gen ortólogo, el cual podemos definir como aquellos genes que provienen de un mismo gen (son homólogos) y cuya divergencia se debe a un proceso de especiación (misma identidad) puede que sí presenten una función parecida u homóloga. Esto no nos asegura que cumplan la misma función, no obstante es muy probable de que así sea. 
+
+3. ¿Con cuál trabajaría para hacer filogenética?
+
+En la reconstrucción de filogenias se suelen utilizar genes ortólogos, que son aquellos que se han originado por especiación y, por lo tanto, se encuentran en diferentes especies pero tienen una función similar. Esto es importante para evitar la confusión de la evolución de genes duplicados (parálogos) y para asegurar que las relaciones filogenéticas se basen en similitudes evolutivas que son el resultado de la divergencia de especies.
+Sin embargo, en algunos casos, los genes parálogos también pueden ser útiles en la reconstrucción de filogenias, ya que pueden proporcionar información sobre eventos de duplicación de genes y la evolución de funciones moleculares específicas. En estos casos, es importante tener en cuenta la posible influencia de los eventos de duplicación en la interpretación de las relaciones filogenéticas.
+4. ¿Cómo extraer las secuencias de estos genes?
+
+Luego de realizar el blasting, se pueden seguir los siguientes pasos: 
+1. Copiar el identificador del hit (resultado) de tu búsqueda de blasting. Este se encuentra en la tercera columna de la salida del archivo de texto del blast.
+2. Utilizar el identificador copiado para buscar la secuencia completa del gen en la base de datos. Esto se puede hacer utilizando la herramienta de búsqueda de la base de datos o mediante el uso del identificador en una búsqueda de Blast.
+3. Una vez realizado se puede descargar en formato FASTA o en otro formato a elección.
+
+Alternativamente, si realizaste el blasting utilizando un software local en tu computadora, puedes buscar el archivo de resultados y extraer las secuencias de los genes encontrados utilizando herramientas de análisis de secuencias, como BioPython o SeqIO.
+Por otro lado, puedes extraer los identificadores de los hits utilizando comandos de Bash y herramientas de procesamiento de texto, como awk o cut. Por ejemplo, si tu deseas extraer los identificadores del hit, puedes usar el siguiente comando en la terminal de Bash: 
+awk '{print $3}' resultados.txt > identificadores.txt 
+o también el comando cut: 
+cut -f3 resultados.txt > identificadores.txt
+Para encontrar las coordenadas de las secuencias, se deben considerar las columnas 7 y 8 del resultado. La columna 7 representa el inicio de la alineación en la secuencia de referencia (generalmente la secuencia de la base de datos), mientras que la columna 8 representa el final de la alineación en la secuencia de referencia. Para extraerlos se puede emplear por ejemplo el siguiente comando: 
+awk '{print $7"\t"$8}' resultados_tabulados.txt > coordenadas.txt
+Por último, para  obtener las secuencias de los hits en el resultado de un blast,  se puede utilizar el identificador del hit que obtuviste de la salida de blast para buscar y extraer la secuencia de la base de datos de la que se realizó la búsqueda de Blast. Esto se puede hacer utilizando varios programas de línea de comandos, como el programa de búsqueda de secuencias "fetch" de la suite de herramientas de EMBOSS, o el programa "esearch" de la herramienta Entrez Direct de NCBI.Por otro lado, para obtenerlo a partir del mismo Bash  se puede utilizar el programa "blastdbcmd" de la suite de herramientas de Blast; este te permite buscar y extraer secuencias de la base de datos utilizada en el Blast utilizando el identificador del hit.
+Para ello requerimos: 
+1. Asegurar tener  instalada la suite de herramientas de Blast en tu sistema.
+2. Crear un archivo de texto con los identificadores de los hits que deseas extraer, por ejemplo, "identificadores.txt". Este archivo debe contener un identificador por línea.
+3. Utiliza el siguiente comando para buscar y descargar las secuencias correspondientes a los identificadores de los hits en formato FASTA:
+blastdbcmd -db <database> -entry_batch identificadores.txt -outfmt %f -out secuencias.fasta
+Donde "<database>" es el nombre de la base de datos de secuencias utilizada en el blast y "secuencias.fasta" es el archivo el cual almacena los hits tomados.

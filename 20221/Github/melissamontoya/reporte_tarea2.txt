@@ -1,0 +1,122 @@
+
+    1  sinfo
+    2  squeue
+    3  htop
+    4  smyqueue
+    5  module avail minicod
+    6  module avail miniconda
+    7  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+    8  module list
+    9  module load python-3.9.9
+   10  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   11  module avail python-3.9.9-gcc-11.2.0-k7juzmi
+   12  module list
+   13  conda init bash
+   14  %%bash
+   15  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+   16  mkdir blast
+   17  cd blast
+   18  ls
+   19  vim 
+   20  vim
+   21  :w 
+   22  ls
+   23  less blast_mmd.sh 
+   24  Âvim blast_mmd.sh 
+   25  vim blast_mmd.sh 
+   26  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27module load miniconda3-4.10.3-gcc-11.2.0-vcglj27module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+   27  ls
+   28  vim blast_mmd.sh 
+   29  sbatch blast_mmd.sh 
+   30  vim blast_mmd.sh 
+   31  squeue
+   32  smyqueue
+   33  squeue
+   34  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27
+   35  conda env list
+   36  conda create --name Localblast
+   37  conva env list
+   38  conda env list
+   39  conda activate Localblast
+   40  conda install -c bioconda blast
+   41  conda list
+   42  module avail miniconda
+   43  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+   44  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   45  module avail python-3.9.9-gcc-11.2.0-k7juzmi
+   46  module list
+   47  conda init bash
+   48  ls
+   49  cd 
+   50  ls
+   51  cat > moverarchivos.sh
+   52  cd home
+   53  nano amanita_muscaria.fasta
+   54  ls
+   55  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   56  ls
+   57  rm moverarchivos.sh ÂÂ| rm amanita_muscaria.fasta 
+   58  ls
+   59  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+   60  ls
+   61  module avail miniconda3-4.10.3-gcc-11.2.0-vcglj27
+   62  module spider miniconda3-4.10.3-gcc-11.2.0-vgclj27
+   63  module spider miniconda3-4.10.3-gcc-11.2.0-vcglj27
+   64  conda list
+   65  %%bash conda create --name Localblast
+   66  conda create --name Localblast
+   67  pwd
+   68  $ conda activate Localblast
+   69  conda activate Localblast
+   70  conda env list
+   71  conda activate Localblast
+   72  conda create -n myblast
+   73  conda activate myblast
+   74  ls -lh GCA_001466705.1_ASM146670v1_genomic.fna.gz
+   75  ls -lh GCA_001466705.1_ASM146670v1_genomic.fna
+   76  ls -lh
+   77  cd blast
+   78  ls -lh GCA_001466705.1_ASM146670v1_genomic.fna.gz
+   79  gunzip -d GCA_001466705.1_ASM146670v1_genomic.fna.gz
+   80  ls -lh
+   81  less GCA_001466705.1_ASM146670v1_genomic.fna 
+   82  ls -lh
+   83  less slurm_template.sh 
+   84  nano slurm_template.sh 
+   85  sbatch slurm_template.sh 
+   86  nano slurm_template.sh 
+   87  sbatch slurm_template.sh 
+   88  smyqueue 
+   89  ls -lh
+   90  cat blastn_11943.err
+   91  conda env list 
+   92  nano slurm_template.sh 
+   93  sbatch slurm_template.sh 
+   94  smyqueue 
+   95  ls -lh
+   96  cat blastn_11954
+   97  cat blastn_11954.err
+   98  nano slurm_template.sh 
+   99  sbatch slurm_template.sh 
+  100  smyqueue 
+  101  ls -lh
+  102  cat blastn_11958
+  103  cat blastn_11958.err
+  104  conda activate myblast
+  105  blastn -h
+  106  conda install
+  107  conda install -c bioconda blast=2.12
+  108  blastn -h
+  109  sbatch slurm_template.sh 
+  110  smyqueue 
+  111  ls -lh
+  112  cat test_output.tsv 
+  113  nano slurm_template.sh 
+  114  sbatch slurm_template.sh 
+  115  smyqueue 
+  116  ls -lh
+  117  cat test_output.tsv 
+  118  awk '$3>90' test_output.tsv 
+  119  cat test_output.tsv 
+  120  slurm_template.sh > reporte.txt
+  121  history >> reporte.txt

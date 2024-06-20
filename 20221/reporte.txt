@@ -1,0 +1,19 @@
+#!/bin/bash #080222/SebastianGomez
+
+grep -v ">" sequence.fasta | wc | awk '{print $3-$1}'
+  340  clear
+  341  cd Desktop
+  342  mkdir Biocomp
+  343  cd Desktop
+  344  mkdir Biocomp
+  345  cd Desktop
+  346  mkdir Biocomp
+  347  cd Biocomp
+  348  mkdir Ejercicios_linux
+  349  cd Ejercicios_linux
+  350  wc sequence.fasta
+  351  nano Task1_SebastianGomez.sh
+  352  chmod 777 Task1_SebastianGomez.sh
+  353  ls -l
+  354  ./Task1_SebastianGomez.sh sequence.fasta
+  355  cat Task1_SebastianGomez.sh > reporte.txt

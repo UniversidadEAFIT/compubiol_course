@@ -1,0 +1,134 @@
+#!/bin/bash
+
+#SBATCH --partition=learning                    # Partition
+#SBATCH --nodes=1								# learning solo tiene 1
+#SBATCH --ntasks=1                              # Number of tasks (processes) en learning hasta 32
+#SBATCH --time=2:00:00                          # Walltime
+#SBATCH --job-name=blastn       		# Job name
+#SBATCH --output=%x_%j.out 			# Stdout (%x-jobName, %j-jobId)
+#SBATCH --error=%x_%j.err  			# Stderr (%x-jobName, %j-jobId)
+#SBATCH --mail-type=ALL		                # Mail notification
+#SBATCH --mail-user=spatinob@eafit.edu.co       # User Email
+#SBATCH --cpus-per-task=1
+
+
+##### ENVIRONMENT CREATION #####
+python-3.9.9-gcc-11.2.0-k7juzmi
+miniconda3-4.10.3-gcc-11.2.0-vcglj27
+source activate Localblast
+#### 
+export LD_LIBRARY_PATH=/lib64:$LD_LIBRARY_PATH
+
+##### JOB COMMANDS #### 
+blastn -query sequence.fasta -subject GCA_001466705.1_ASM146670v1_genomic.fna -word_size 12 -out test_output.tsv -outfmt 7 
+    1  sinfo
+    2  squeue
+    3  htop
+    4  smyqueue
+    5  module avail miniconda
+    6  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+    7  module list
+    8  module load python-3.9.9-
+    9  module list pyton
+   10  module list python
+   11  module avail python
+   12  module load python-3.9.9-11.2.0-k7juzmi
+   13  module avail
+   14  module list
+   15  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   16  module list
+   17  conda init bash
+   18  module list
+   19  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   20  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+   21  module list
+   22  mkdir blast
+   23  cd blast
+   24  vim slurm_template.sh
+   25  ls
+   26  vim
+   27  vim blast_sebastian.sh 
+   28  less blast_sebastian.sh 
+   29  vim blast_sebastian.sh 
+   30  module list
+   31  vim blast_sebastian.sh 
+   32  less blast_sebastian.sh 
+   33  sbatch blast_sebastian.sh 
+   34  squeue
+   35  smyqueue
+   36  conda env list
+   37  conda activate Localblast
+   38  conda install -c bioconda blast
+   39  conda create --name Localblast
+   40  conda env list
+   41  conda activate Localblast
+   42  module list
+   43  module list
+   44  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   45  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27 
+   46  module list
+   47  conda init bash
+   48  module list
+   49  conda install -c bioconda blast
+   50  ls
+   51  cd blast
+   52  ls
+   53  ./
+   54  cd ./
+   55  ls
+   56  cd ../
+   57  ls
+   58  mkdir trabajo_s
+   59  ls
+   60  cd trabajo_s/
+   61  ls
+   62  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27
+   63  module list
+   64  conda create --name Localblast
+   65  conda env list
+   66  conda activate Localblast
+   67  conda install -c bioconda blast
+   68  module list
+   69  module avail python
+   70  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   71  module list
+   72  vim blast_sebastian.sh 
+   73  conda activate Localblast
+   74  ls
+   75  cd trabajo_s/
+   76  ls
+   77  vim blast_sebastian.sh 
+   78  conda init bash
+   79  ls
+   80  ls -lh GCA_001466705.1_ASM146670v1_genomic.fna 
+   81  vim blast_sebastian.sh 
+   82  cd blast
+   83  ls
+   84  sbatch blast_sebastian.sh 
+   85  smyqueue
+   86  ls -lh
+   87  cat blastn_12861.err
+   88  module list
+   89  module load python-3.9.9-gcc-11.2.0-k7juzmi 
+   90  module load miniconda3-4.10.3-gcc-11.2.0-vcglj27
+   91  module list
+   92  sbatch blast_sebastian.sh 
+   93  smyqueue
+   94  ls -lh
+   95  cat blastn_12866.err
+   96  conda activate Localblast
+   97  vim blast_sebastian.sh 
+   98  module list
+   99  pwd
+  100  ls
+  101  blastn -h
+  102  conda install -c bioconda blast=2.12
+  103  blastn -h
+  104  sbatch blast_sebastian.sh 
+  105  smyqueue
+  106  ls -lh
+  107  cat test_output.tsv 
+  108  awk '$3>90' test_output.tsv 
+  109  vim blast_sebastian.sh 
+  110  cat blast_sebastian.sh >> reporte2.txt
+  111  history >> reporte2.txt 

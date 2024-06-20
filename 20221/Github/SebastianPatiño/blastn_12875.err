@@ -1,0 +1,2 @@
+/var/spool/slurmd/job12875/slurm_script: line 16: python-3.9.9-gcc-11.2.0-k7juzmi: command not found
+/var/spool/slurmd/job12875/slurm_script: line 17: miniconda3-4.10.3-gcc-11.2.0-vcglj27: command not found

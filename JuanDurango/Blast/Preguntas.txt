@@ -1,0 +1,11 @@
+#Primero se crea un data base:
+
+makeblastdb -in GCA_001466705.2_ASM146670v2_genomic.fna -title hongo  -dbtype nucl -out databases/reference
+
+#Despues corremos el blast:
+
+blastn -db databases/reference -query Amanita_muscaria.fasta -outfmt 6 -out amanita.txt -evalue 1e-3 -word_size 11 -perc_identity 80
+
+#El ultimo argumento del programa anterior "-perc_identity 80" nos ayuda a filtrar los hits por el porcentaje de identidad, como ningún hit tuvo un porcentaje de identidad >= 90 reducimos a >= 80. Ya que solo hubieron 3 hits y todos tres tiene un porcentaje de identidad superior a 80. Al parecer el genoma presenta tres genes paralogos. Si cumplen la misma funicón o no dependerá de muchos otros factores por lo que con la información que tenemos no podemos saber si se cumple la misma función. Para hacer filogenetica lo mejor es no trabajar con genes paralogos, si no con ortologos. Para extraerlos se tomarían las coordenadas de la secuencia de referancia que son dadas en el resultado del blast y con ellas extraería la secuencia usando un script en python. 
+
+

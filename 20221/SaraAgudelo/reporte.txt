@@ -1,0 +1,42 @@
+#!/bin/bash #14/02/2022/Sara
+tail -n +2 $1 | wc -m
+
+    1  ls
+    2  sudo 
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  clear
+    6  ls
+    7  ls -a
+    8  explorer.exe .
+    9  LS
+   10  ls
+   11  clear
+   12  mkdir biocomp
+   13  ls
+   14  mkdir biocomp
+   15  ls
+   16  cd biocomp
+   17  mkdir Ejercicios_linux
+   18  cd Ejercicios_linux
+   19  cat > Task1_Sara.sh
+   20  cd Task1_Sara.sh
+   21  ls
+   22  mkdir biocomp
+   23  ls
+   24  cd biocomp
+   25  mkdir Ejercicios_linux
+   26  cd Ejercicios_linux
+   27  nano Task1_Sara.sh
+   28  sh Task1_Sara.sh sequence.fasta
+   29  chmod +x Task1_Sara.sh
+   30  ./Task1_Sara.sh sequence.fasta
+   31  nano Task1_Sara.sh
+   32  chmod 700 Task1_Sara.sh 
+   33  ls -al
+   34  ls -l
+   35  chmod 777 Task1_Sara.sh 
+   36  ls -al
+   37  sh Task1_Sara.sh sequence.fasta 
+   38  cat Task1_Sara.sh > reporte.txt
+   39  history >> reporte.txt 

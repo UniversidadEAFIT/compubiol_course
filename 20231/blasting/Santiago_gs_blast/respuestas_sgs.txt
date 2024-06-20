@@ -1,0 +1,11 @@
+¿Cuantos genes parálogos hay en el genoma? cumplirán la misma función? con cual trabajaría para hacer filogenética? ¿cómo extraer las secuencias de estos genes?.
+
+R//= Aunque los genes de diferentes microorganismos pueden ser paralogos con los datos que obtenemos después de correr el script no podríamos definir cuál es la cantidad de genes parálogos presentes en el genoma de estos microorganismos. 
+
+cumplirán la misma función? No podemos asumir que los genes paralogos cumplen con la misma función en un organismo ya que por lo general los genes paralogos suelen evolucionar y cumplir con diferentes funcionalidades dentro de un organismo, sin embargo, algunos pueden conservar funciones similares o identicas en la etapa del desarrollo del organismo.
+
+¿con cual trabajaría para hacer filogenética? 
+Los genes parálogos no deberían usarse para realizar filogenética ya que son genes que tienen muchísimas variaciones y puede conllevar a errores dentro de la creación de un árbol filogenitico. En este caso puntual podríamos decir que los genes son ortólogos y se tomaría el gen con la secuencia más larga ya que su análisis filogenetico arrojaría un resultado mucho más acertado
+
+¿cómo extraer las secuencias de estos genes?.
+Para extracción se puede hacer mediante el identificador de hits, se copia en la base de datos en la que se realizó el análisis. En este caso, se realizó la descarga del archivo .fna del genoma y después de eso, se realizó la obtención de la base de datos, se realizó el blast comparando con una secuencia ya dada después procedimos a realizar el análisis desde las lineas de comando

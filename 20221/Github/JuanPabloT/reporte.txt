@@ -1,0 +1,96 @@
+    1  mkdir 
+    2  echo hola
+    3  ls -lha 
+    4  pwd
+    5  mkdir Ejercicios_linux 
+    6  ls -l
+    7  cd Ejercicios_linux/
+    8  hola.txt
+    9  nano JPT.txt
+   10  ls
+   11  nano Task1_JuanPabloT.sh 
+   12  cat Helobdella_robusta.fasta 
+   13  tail -n +2
+   14  tail -n +2 Helobdella_robusta.fasta  > Sinheader.fasta
+   15  less Sinheader.fasta 
+   16  tr man
+   17  tr -d "/n" < Sinheader.fasta > Lineal.fasta
+   18   less
+   19  less Lineal.fasta
+   20  nano Task1_JuanPabloT.sh 
+   21  wc -l
+   22  wc -l Lineal.fasta 
+   23  nano Task1_JuanPabloT.sh 
+   24  wc -m Lineal.fasta 
+   25  nano Task1_JuanPabloT.sh 
+   26  tr -d "\n" < Sinheader.fasta > Lineal.fasta
+   27  less
+   28  less Lineal.fasta 
+   29  wc -m Lineal.fasta 
+   30  nano Task1_JuanPabloT.sh 
+   31  chmode u+x Task1_JuanPabloT.sh 
+   32  chmod u+x Task1_JuanPabloT.sh 
+   33  ./ Task1_JuanPabloT.sh 
+   34  ./Task1_JuanPabloT.sh 
+   35  nano Task1_JuanPabloT.sh 
+   36  grep > -A1 Helobdella_robusta.fasta |wc -m
+   37  echo grep > -A1 Helobdella_robusta.fasta |wc -m
+   38  echo grep > -A1 Helobdella_robusta.fasta |wc -m
+   39  echo grep > -A1 Helobdella_robusta.fasta
+   40  grep > -A1 Helobdella_robusta.fasta
+   41  grep > -A1 Helobdella_robusta.fasta > noheader.fasta
+   42  cat Helobdella_robusta.fasta 
+   43  grep " >" -A1 Helobdella_robusta.fasta
+   44  grep ">" -A1 Helobdella_robusta.fasta
+   45  cat Helobdella_robusta.fasta 
+   46  grep ">" -A1 Helobdella_robusta.fasta | wc -m
+   47  nano Task1_JuanPabloT.sh 
+   48  nano Task1_JuanPabloT.sh 
+   49  ./Task1_JuanPabloT.sh 
+   50  grep ">" -A1 Helobdella_robusta.fasta 
+   51  grep "mitochondrial" -A1 Helobdella_robusta.fasta 
+   52  grep mitochondrial -A1 Helobdella_robusta.fasta 
+   53  grep mitochondrial -A2 Helobdella_robusta.fasta 
+   54  grep man
+   55  grep mitochondrial -A Helobdella_robusta.fasta 
+   56  grep mitochondrial -A0 Helobdella_robusta.fasta 
+   57  wc man
+   58  wc -m Helobdella_robusta.fasta 
+   59  wc -c Helobdella_robusta.fasta 
+   60  wc -l Helobdella_robusta.fasta 
+   61  nano Task1_JuanPabloT.sh 
+   62  ./Task1_JuanPabloT.sh Helobdella_robusta.fasta 
+   63  ./Task1_JuanPabloT.sh 
+   64  nano Task1_JuanPabloT.sh 
+   65  ./Task1_JuanPabloT.sh 
+   66  nano Task1_JuanPabloT.sh 
+   67  ./Task1_JuanPabloT.sh Helobdella_robusta.fasta 
+   68  nano Task1_JuanPabloT.sh 
+   69  ./Task1_JuanPabloT.sh 
+   70  nano Task1_JuanPabloT.sh 
+   71  ./Task1_JuanPabloT.sh 
+   72  nano Task1_JuanPabloT.sh 
+   73  cat Task1_JuanPabloT.sh >reporte.txt
+   74  history>>reporte.txt
+   75  clear
+   76  Task1_NataliaBetancurt.sh
+   77  nano Task1_NataliaBetancurt.sh
+   78  sed "1d" sequence.fasta >Noheader.txt
+   79  tr -d "\n" < Noheader.txt > lineal.txt
+   80  cat lineal.txt 
+   81  cat sequence.fasta 
+   82  cat Noheader.txt
+   83  wc -m lineal.txt
+   84  echo "El numero de nucleotidos de $file es" wc -m lineal.txt
+   85  nano Task1_NataliaBetancurt.sh
+   86  ./Task1_NataliaBetancurt.sh
+   87  chmod u+x Task1_NataliaBetancurt.sh
+   88  ./Task1_NataliaBetancurt.sh
+   89  nano Task1_NataliaBetancurt.sh 
+   90  ./Task1_NataliaBetancurt.sh
+   91  nano Task1_NataliaBetancurt.sh 
+   92  ./Task1_NataliaBetancurt.sh
+   93  nano Task1_NataliaBetancurt.sh 
+   94  ./Task1_NataliaBetancurt.sh
+   95  Task1_NataliaBetancurt.sh > reporte.txt
+   96  history >> reporte.txt
