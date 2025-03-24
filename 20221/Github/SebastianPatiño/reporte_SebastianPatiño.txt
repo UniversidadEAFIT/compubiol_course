@@ -1,0 +1,250 @@
+    1  cd ~
+    2  curl -L -o unix_intro.tar.gz https://ndownloader.figshare.com/files/15573746
+    3  tar -xzvf unix_intro.tar.gz && rm unix_intro.tar.gz
+    4  cd unix_intro
+    5  date
+    6  date -u
+    7  head example.txt
+    8  head -n 5 example.txt
+    9  head -h
+   10  head --help
+   11  clear
+   12  cd ~
+   13  curl -L -o unix_intro.tar.gz https://ndownloader.figshare.com/files/15573746
+   14  tar -xzvf unix_intro.tar.gz && rm unix_intro.tar.gz
+   15  cd unix_intro
+   16  head example.txt
+   17  head -n 5 example.txt
+   18  date --help
+   19  pwd
+   20  ls
+   21  head example.txt
+   22  head notes.txt
+   23  ls
+   24  ls experiment
+   25  head notes.txt
+   26  head experiment/notes.txt
+   27  head example.txt 
+   28  head 
+   29  ls
+   30  head example.txt 
+   31  cd experiment
+   32  pwd
+   33  ls
+   34  head notes.txt
+   35  cd ..
+   36  pwd
+   37  ls
+   38  ~/
+   39  cd
+   40  cd ~/unix_intro
+   41  tail example.txt
+   42  less example.txt
+   43  wc example.txt
+   44  wc -3 example.txt
+   45  wc --3 example.txt
+   46  wc -1 example.txt
+   47  wc example.txt
+   48  wc -1 example.txt
+   49  wc --help
+   50  wc -l example.txt
+   51  wc -w example.txt
+   52  ls
+   53  cp example.txt example_copy.txt
+   54  ls
+   55  ls data/
+   56  cp example.txt data/example_copy.txt
+   57  ls data/
+   58  ls
+   59  cp experiment/notes.txt
+   60  cp experiment/notes.txt .
+   61  ls
+   62  ls experiment/
+   63  mv experiment_copy.txt experiment/
+   64  ls
+   65  mv example_copy.txt experiment/
+   66  ls
+   67  ls experiment/
+   68  ls
+   69  mv notes.txt notes_old.txt
+   70  ls
+   71  rm notes_old.txt
+   72  ls
+   73  nano sample_names.txt
+   74  ls
+   75  head sample_names.txt
+   76  ls
+   77  mkdir subset
+   78  ls
+   79  rmdir subset
+   80  ls
+   81  rmdir experiment/
+   82  .
+   83  ls
+   84  ls experiment/
+   85  cp experiment/notes.txt .
+   86  ls
+   87  pwd
+   88  cd spatinob
+   89  ls
+   90  rmdir unix_intro
+   91  rmdir -r unix_intro
+   92  rm -r unix_intro
+   93  ls
+   94  rm -r Ejercicios_linux
+   95  ls
+   96  cd biocomp
+   97  mkdir biocomp
+   98  cd biocomp
+   99  mkdir Ejercicios_linux
+  100  cd Ejercicios_linux/
+  101  touch Task1_sebastian.sh
+  102  ls
+  103  cat > Task1_sebastian.sh 
+  104  echo > Task1_sebastian.sh 
+  105  cat > Task1_sebastian.sh 
+  106  nano Task1_sebastian.sh 
+  107  clear
+  108  ls
+  109  cd biocomp
+  110  ls
+  111  cd Ejercicios_linux/
+  112  ls
+  113  nano Task1_sebastian.sh 
+  114  explorer.exe
+  115  explorer
+  116  explorer.exe
+  117  ls
+  118  echo sequence.fasta >> Task1_sebastian.sh 
+  119  ls
+  120  nano Task1_sebastian.sh 
+  121  fg
+  122  ls
+  123  cat sequence.fasta
+  124  echo cat sequence.fasta >> Task1_sebastian.sh 
+  125  nano Task1_sebastian.sh 
+  126  cp cat sequence.fasta >> Task1_sebastian.sh 
+  127  grep -c "^>" sequence.fasta
+  128  cast sequence.fasta
+  129  cat sequence.fasta
+  130  clear
+  131  man grep
+  132  vim man
+  133  ls
+  134  vi sequence.fasta
+  135  grep --help
+  136  head sequence.fasta
+  137  vi --help
+  138  vi -Return sequence.fasta
+  139  vim -h
+  140  vi -dd ">" sequence.fasta
+  141  cat sequence.fasta
+  142  pwd
+  143  ls
+  144  cd biocomp
+  145  ls
+  146  cd Ejercicios_linux/
+  147  ls
+  148  nano Task1_sebastian.sh 
+  149  ls
+  150  cd biocomp/
+  151  ls
+  152  cd Ejercicios_linux/
+  153  ls
+  154  chmod --help
+  155  chmod -wc
+  156  clear
+  157  ls
+  158  nano sequence.fasta
+  159  nano Task1_sebastian.sh 
+  160  for item in $(cat sequence.fasta); do
+  161  for item in $(cat sequence.fasta) do echo $item; done
+  162  for item in $(cat sequence.fasta) do echo $item done; done
+  163  for --help;done
+  164  for item in $(cat sequence.fasta); do echo $item; done
+  165  clear
+  166  grep ">" sequence.fasta
+  167  vi --help
+  168  $(grep ">" sequence.fasta)
+  169  for item in $(cat sequence.fasta); do  vi -dd $(grep ">" sequence.fasta); done
+  170  grep ">" sequence.fasta
+  171  vi /> sequence.fasta
+  172  vim -man
+  173  vim -h
+  174  for i in $(ls sequence.fasta); do sed -i '1d' $i; done
+  175  $ grep ">" sequence.fasta
+  176  grep ">" sequence.fasta
+  177  clear
+  178  grep ">" sequence.fasta
+  179  clear
+  180  nano sequence.fasta
+  181  rm sequence.fasta
+  182  ls
+  183  rm sequence.fasta\:Zone.Identifier 
+  184  ls
+  185  cd biocomp/
+  186  ls
+  187  cd Ejercicios_linux/
+  188  ls
+  189  sed --help
+  190  for file in sequence.fasta; do $file; sed '1d' "$file" | wc -c; done
+  191  ls
+  192  clear
+  193  sed --help
+  194  grep --help
+  195  grep -v
+  196  grep -v '>' sequence.fasta
+  197  for i in sequence.fasta; do echo $i; grep -v '>'; done
+  198  for i in $(cat sequence.fasta); do  echo $i ; grep -v '>'; done
+  199  for i in $(cat sequence.fasta); do echo $i; grep -v '>' | wc -c ; done
+  200  wc --help
+  201  wc -c sequence.fasta
+  202  for i in $(cat sequence.fasta); do echo $i; grep -v '>' | wc -c $i; done
+  203  wc --help
+  204  for file in $(cat sequence.fasta); do echo $file | grep -v '>' | wc -l; done
+  205  for item in $(cat sequence.fasta); do echo $item | grep -v '>' | wc -1 ; done
+  206  wc -1
+  207  wc -l sequence.fasta
+  208  for item in $(cat sequence.fasta); do echo $item | grep -v '>' | wc -l $item; done
+  209  cd biocomp/
+  210  ls
+  211  cd Ejercicios_linux/
+  212  ls
+  213  sed --help
+  214  for file in sequence.fasta; do $file; sed '1d' "$file" | wc -c; done
+  215  ls
+  216  clear
+  217  sed --help
+  218  grep --help
+  219  grep -v
+  220  grep -v '>' sequence.fasta
+  221  for i in sequence.fasta; do echo $i; grep -v '>'; done
+  222  for i in $(cat sequence.fasta); do  echo $i ; grep -v '>'; done
+  223  for i in $(cat sequence.fasta); do echo $i; grep -v '>' | wc -c ; done
+  224  wc --help
+  225  wc -c sequence.fasta
+  226  for i in $(cat sequence.fasta); do echo $i; grep -v '>' | wc -c $i; done
+  227  wc --help
+  228  for file in $(cat sequence.fasta); do echo $file | grep -v '>' | wc -l; done
+  229  for item in $(cat sequence.fasta); do echo $item | grep -v '>' | wc -1 ; done
+  230  ls
+  231  cd biocomp/
+  232  ls
+  233  cd Ejercicios_linux/
+  234  ls
+  235  clear
+  236  tail -n+2 sequence.fasta | wc -m
+  237  ls
+  238  tail -n+2 ecoli.fasta | wc -m
+  239  wc --help
+  240  nano Task1_sebastian.sh 
+  241  chmod Task1_sebastian.sh
+  242  chmod -wc Task1_sebastian-sh
+  243  chmod --help
+  244  chmod +rwx Task1_sebastian.sh 
+  245  ls -l
+  246  nano Task1_sebastian.sh 
+  247  chmod u+x Task1_sebastian.sh 
+  248  ls -l 
+  249  ./Task1_sebastian.sh sequence.fasta
+  250  history >> reporte.txt

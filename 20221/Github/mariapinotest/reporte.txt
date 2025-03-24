@@ -1,0 +1,66 @@
+#!/bin/bash
+#04/02/22/Maria Jose Pino 
+grep -v ">" sequence.fasta | wc | awk '{print $3-$1}'
+	
+    1  pwd
+    2  cd maria_pino/
+    3  cd -
+    4  cd amalia_munera/
+    5  ls
+    6  cd ~
+    7  cd amalia_munera/
+    8  cd ~
+    9  rm -r amalia_munera/
+   10  pwd
+   11  root
+   12  man sudo_root
+   13  explorer.exe .
+   14  cd maria_pino/
+   15  cat sequence
+   16  cat sequence.FASTA
+   17  cat sequence
+   18  cat sequence.fasta
+   19  less sequence.fasta
+   20  more sequence.fasta
+   21  wc -l sequence.fasta
+   22  man wc
+   23  head -1 sequence.fasta
+   24  head sequence.fasta
+   25  man wc
+   26  cat sequence.fasta | grep -o 'A','G','C','T' | wc -l
+   27  cat sequence.fasta | grep -o 'A' | wc -l
+   28  mkdir biocomp
+   29  cd biocomp/
+   30  mkdir ejercicios_linux
+   31  cd ejercicios_linux/
+   32  nano task1_mariapino.sh
+   33  cat task1_mariapino.sh 
+   34  chmod u=rwe, a=rwe task1_mariapino.sh 
+   35  chmode --help
+   36  chmod --help
+   37  chmod u=rwx, a=rwx task1_mariapino.sh 
+   38  chmod u+x task1_mariapino.sh 
+   39  ls -l
+   40  chmod a+rwx task1_mariapino.sh 
+   41  list -l
+   42  ls -l
+   43  explorer.exe
+   44  explorer.exe .
+   45  grep -v ">" sequence.fasta 
+   46  grep -v ">" sequence.fasta | wc
+   47  wc --help
+   48  grep -v ">" sequence.fasta | wc -w
+   49  grep -v ">" sequence.fasta | wc -b
+   50  grep -v ">" sequence.fasta | wc -c
+   51  grep -v ">" sequence.fasta | wc -m
+   52  grep -v ">" sequence.fasta | grep "A" | wc
+   53  grep -v ">" sequence.fasta | grep "A" 
+   54  wc --help
+   55  grep -v ">" sequence.fasta | awk '{print $3-$1}'
+   56  grep -v ">" sequence.fasta | wc |awk '{print $3-$1}'
+   57  nano task1_mariapino.sh 
+   58  cat task1_mariapino.sh 
+   59  ./task1_mariapino.sh sequence.fasta 
+   60  cat task1_mariapino.sh 
+   61  cat task1_mariapino.sh>reporte.txt
+   62  history >> reporte.txt
