@@ -1,0 +1,43 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Conda
+.conda/
+
+# Generated course outputs
+results/
+site/
+*.html
+*.zip
+*.tar.gz
+
+# Bioinformatics generated indexes and large intermediates
+*.nhr
+*.nin
+*.nsq
+*.phr
+*.pin
+*.psq
+*.fai
+*.bwt
+*.sa
+*.bam
+*.bai
+*.cram
+*.crai
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs, except teaching examples in data/module05/logs
+*.log
+!data/module05/logs/*.log

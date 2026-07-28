@@ -1,3 +1,0 @@
-#!/bin/bash #07-feb
-
-tail -n +2 sequence.fasta.txt  | wc -m

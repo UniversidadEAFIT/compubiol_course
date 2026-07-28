@@ -1,0 +1,6 @@
+sample_id	species	country	collection_date	sequence_file	replicate	notes
+S-001	Escherichia coli	Colombia	2026-02-01	sequences.fasta	1	control
+s001	E. coli	CO	01/02/2026	sequences.fasta	01	duplicate identifier format
+S_002	Bacillus subtilis	colombia	2026/02/03	sequences.fasta	1
+S-003	Bacillus subtilis		2026-13-02	missing.fasta	2	invalid date and missing file
+S-004	Pseudomonas putida	Colombia	2026-02-04	sequences.fasta		missing replicate

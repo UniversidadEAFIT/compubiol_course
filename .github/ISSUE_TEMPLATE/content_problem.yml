@@ -1,0 +1,27 @@
+name: Problema en material docente
+description: Reportar error técnico, enlace roto o explicación ambigua
+title: "[CXX] "
+labels: [content]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Archivo y sección
+      placeholder: notebooks/03_linux/03_intro_linux.ipynb, celda 12
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema observado
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Cómo reproducirlo
+      description: Incluya sistema, ambiente, comando y mensaje completo.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Corrección propuesta

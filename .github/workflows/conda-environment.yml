@@ -1,0 +1,39 @@
+name: Validar ambiente Conda
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'environment.yml'
+      - '.github/workflows/conda-environment.yml'
+  push:
+    branches: [master, main]
+    paths:
+      - 'environment.yml'
+      - '.github/workflows/conda-environment.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  solve-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+          cache-downloads: true
+      - name: Verificar herramientas y versiones
+        shell: bash -el {0}
+        run: |
+          bash scripts/check_environment.sh
+          python scripts/validate_repo.py
+          blastp -version
+          mafft --version
+          iqtree2 --version
+          fastqc --version
+          bedtools --version
+          seqtk 2>&1 | head -n 2 || true
+          snakemake --version

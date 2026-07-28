@@ -1,0 +1,20 @@
+##gff-version 3
+##sequence-region chr1 1 2200
+##sequence-region chr2 1 1200
+chr1	teaching	gene	21	420	.	+	.	ID=geneA;Name=Gene_A
+chr1	teaching	mRNA	21	420	.	+	.	ID=txA1;Parent=geneA
+chr1	teaching	exon	21	120	.	+	.	ID=exA1;Parent=txA1
+chr1	teaching	CDS	61	120	.	+	0	ID=cdsA1;Parent=txA1
+chr1	teaching	exon	301	420	.	+	.	ID=exA2;Parent=txA1
+chr1	teaching	CDS	301	398	.	+	0	ID=cdsA2;Parent=txA1
+chr1	teaching	gene	900	1450	.	-	.	ID=geneB;Name=Gene_B
+chr1	teaching	mRNA	900	1450	.	-	.	ID=txB1;Parent=geneB
+chr1	teaching	exon	900	1030	.	-	.	ID=exB1;Parent=txB1
+chr1	teaching	CDS	922	1030	.	-	0	ID=cdsB1;Parent=txB1
+chr1	teaching	exon	1300	1450	.	-	.	ID=exB2;Parent=txB1
+chr1	teaching	CDS	1300	1438	.	-	2	ID=cdsB2;Parent=txB1
+chr2	teaching	gene	300	950	.	+	.	ID=geneC;Name=Gene_C
+chr2	teaching	mRNA	300	950	.	+	.	ID=txC1;Parent=geneC
+chr2	teaching	mRNA	340	950	.	+	.	ID=txC2;Parent=geneC
+chr2	teaching	exon	300	520	.	+	.	ID=exC1;Parent=txC1
+chr2	teaching	exon	700	950	.	+	.	ID=exC2;Parent=txC1

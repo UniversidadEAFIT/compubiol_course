@@ -1,1 +1,0 @@
-#First lecture about python

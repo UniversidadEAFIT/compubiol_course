@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si utiliza estos materiales, cite el repositorio y la versión consultada."
+title: "Bioinformática y Biología Computacional: materiales reproducibles de curso"
+type: software
+authors:
+  - family-names: "Correa Álvarez"
+    given-names: "Javier"
+    affiliation: "Universidad EAFIT"
+repository-code: "https://github.com/UniversidadEAFIT/compubiol_course"
+license: "CC-BY-4.0"
+version: "2026.1"
+date-released: "2026-07-28"
+keywords:
+  - bioinformatics
+  - computational biology
+  - reproducible research
+  - genomics
+  - education

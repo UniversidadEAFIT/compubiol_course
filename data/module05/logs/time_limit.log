@@ -1,0 +1,2 @@
+slurmstepd: error: *** JOB 48187 ON a3-compute-05 CANCELLED AT 2026-07-28T10:30:00 DUE TO TIME LIMIT ***
+JobState=TIMEOUT ExitCode=0:0 Timelimit=00:05:00 Elapsed=00:05:12
