@@ -1,0 +1,4 @@
+##gff-version 3
+chr_demo	teaching	gene	5	30	.	+	.	ID=gene_demo;Name=demo_gene
+chr_demo	teaching	mRNA	5	30	.	+	.	ID=tx_demo;Parent=gene_demo
+chr_demo	teaching	CDS	5	30	.	+	0	ID=cds_demo;Parent=tx_demo

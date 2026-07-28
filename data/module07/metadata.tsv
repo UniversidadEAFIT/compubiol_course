@@ -1,0 +1,5 @@
+sequence_id	taxon	habitat	group
+query_demo	Reference_species	laboratory	REF
+homolog_A_high	Species_A	soil	A
+homolog_B_medium	Species_B	leaf	B
+homolog_C_distant	Species_C	marine	C

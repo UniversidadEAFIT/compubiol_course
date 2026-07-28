@@ -1,1 +1,0 @@
-Class of sequence analyse

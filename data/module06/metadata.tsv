@@ -1,0 +1,8 @@
+sequence_id	taxon	expected_role
+query_demo	Reference_species	query
+homolog_A_high	Species_A	high_identity_candidate
+homolog_B_medium	Species_B	medium_identity_candidate
+homolog_C_distant	Species_C	distant_candidate
+truncated_candidate	Species_D	truncated
+unrelated_D	Species_E	unrelated
+low_complexity_E	Species_F	low_complexity

@@ -1,0 +1,13 @@
+name: compubiol-minimal
+channels:
+- conda-forge
+dependencies:
+- python=3.12
+- jupyterlab
+- ipykernel
+- nbformat
+- pandas
+- numpy
+- matplotlib
+- biopython
+- pyyaml
