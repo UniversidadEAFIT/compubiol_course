@@ -1,0 +1,22 @@
+configfile: "workflow/config.yaml"
+
+rule all:
+    input:
+        config["phylogeny_outdir"] + "/course_tree.treefile"
+
+rule homology_and_alignment:
+    input:
+        query=config["query"],
+        database=config["database"]
+    output:
+        alignment=config["blast_outdir"] + "/homologs_aligned.faa"
+    shell:
+        "bash scripts/module06/run_blast.sh {input.query} {input.database} {config[blast_outdir]}"
+
+rule phylogeny:
+    input:
+        alignment=config["blast_outdir"] + "/homologs_aligned.faa"
+    output:
+        tree=config["phylogeny_outdir"] + "/course_tree.treefile"
+    shell:
+        "bash scripts/module07/run_iqtree.sh {input.alignment} {config[phylogeny_outdir]}"

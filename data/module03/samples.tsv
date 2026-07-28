@@ -1,0 +1,6 @@
+sample	taxon	condition	replicate
+S1	Escherichia_coli	control	1
+S2	Bacillus_subtilis	control	1
+S3	Pseudomonas_putida	stress	1
+S4	Escherichia_coli	stress	2
+S5	Bacillus_subtilis	stress	2

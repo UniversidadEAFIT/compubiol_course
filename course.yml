@@ -1,0 +1,43 @@
+course:
+  title: Bioinformática y Biología Computacional
+  institution: Universidad EAFIT
+  edition: '2026.1'
+  language: es
+  repository: https://github.com/UniversidadEAFIT/compubiol_course
+classes:
+- id: C1
+  title: Datos biológicos, FAIR y organización
+  notebook: notebooks/01_datos_fair/01_datos_fair.ipynb
+  assignment: assignments/C01_datos_fair.md
+- id: C2
+  title: Conda, Git, GitHub y cuadernos reproducibles
+  notebook: notebooks/02_reproducibilidad_git/02_conda_git_github.ipynb
+  assignment: assignments/C02_reproducibilidad_git.md
+- id: C3
+  title: Introducción a Linux y Bash
+  notebook: notebooks/03_linux/03_intro_linux.ipynb
+  assignment: assignments/C03_linux.md
+- id: C4
+  title: Bash intermedio y manejo de errores
+  notebook: notebooks/04_bash_robusto/04_bash_manejo_errores.ipynb
+  assignment: assignments/C04_bash_robusto.md
+- id: C5
+  title: HPC, Slurm y Seqtk
+  notebook: notebooks/05_hpc_slurm/05_hpc_slurm_seqtk.ipynb
+  assignment: assignments/C05_hpc_slurm.md
+- id: C6
+  title: Alineamiento, BLAST+ y MAFFT
+  notebook: notebooks/06_alineamiento_blast/06_alineamiento_blast_mafft.ipynb
+  assignment: assignments/C06_blast_mafft.md
+- id: C7
+  title: Curación, IQ-TREE e iTOL
+  notebook: notebooks/07_filogenia/07_filogenia_iqtree_itol.ipynb
+  assignment: assignments/C07_filogenia.md
+- id: C8
+  title: Secuenciación, FASTQ y FastQC
+  notebook: notebooks/08_fastq_qc/08_fastq_fastqc.ipynb
+  assignment: assignments/C08_fastq_qc.md
+- id: C9
+  title: GFF3, coordenadas y bedtools
+  notebook: notebooks/09_gff3_bedtools/09_gff3_bedtools.ipynb
+  assignment: assignments/C09_gff3_bedtools.md

@@ -1,0 +1,2 @@
+field	definition	type	allowed_values	missing_value	example
+sample_id		string		NA	S-001

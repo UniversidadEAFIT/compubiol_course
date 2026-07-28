@@ -1,0 +1,4 @@
+[2026-07-28 10:14:01] Starting seqtk sample
+[E::stk_seq_open] failed to open /scratch/course/raw/sample01.fastq.gz
+seqtk: No such file or directory
+slurmstepd: error: Exited with exit code 1

@@ -1,0 +1,50 @@
+site_name: Bioinformática y Biología Computacional · EAFIT
+site_description: Ruta reproducible de nueve clases para bioinformática y biología computacional
+site_url: https://universidadeafit.github.io/compubiol_course/
+repo_url: https://github.com/UniversidadEAFIT/compubiol_course
+repo_name: UniversidadEAFIT/compubiol_course
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - content.tabs.link
+
+nav:
+  - Inicio: index.md
+  - Comenzar:
+      - Guía del estudiante: guia-estudiante.md
+      - Instalación y ambientes: instalacion.md
+      - Flujo Git y entregas: flujo-git.md
+  - Módulos:
+      - C1 · Datos y FAIR: modulos/c01.md
+      - C2 · Conda, Git y GitHub: modulos/c02.md
+      - C3 · Linux y Bash: modulos/c03.md
+      - C4 · Bash robusto: modulos/c04.md
+      - C5 · HPC y Slurm: modulos/c05.md
+      - C6 · BLAST y MAFFT: modulos/c06.md
+      - C7 · Filogenia reproducible: modulos/c07.md
+      - C8 · FASTQ y control de calidad: modulos/c08.md
+      - C9 · GFF3 y bedtools: modulos/c09.md
+  - Curso:
+      - Syllabus operativo: syllabus.md
+      - Evaluación: evaluacion.md
+      - Recursos y referencias: referencias.md
+      - Material histórico: legacy.md
+  - Docentes:
+      - Guía docente: guia-docente.md
+      - Diseño y decisiones: diseno-repositorio.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,4 @@
+query: data/module06/query.faa
+database: data/module06/protein_db.faa
+blast_outdir: results/workflow/homology
+phylogeny_outdir: results/workflow/phylogeny

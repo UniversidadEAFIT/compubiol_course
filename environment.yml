@@ -1,0 +1,24 @@
+name: compubiol-2026
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- python=3.12
+- jupyterlab
+- ipykernel
+- nbformat
+- pandas
+- numpy
+- matplotlib
+- biopython
+- pyyaml
+- blast
+- mafft
+- iqtree
+- fastqc
+- bedtools
+- seqtk
+- snakemake-minimal
+- pip
+- pip:
+  - mkdocs-material

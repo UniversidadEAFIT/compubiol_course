@@ -1,0 +1,10 @@
+>seq001|taxon=Escherichia_coli|gene=recA|sample=S1
+ATGGCTATCGACGAAAACAAAGCTGGTGAA
+>seq002 taxon=Bacillus_subtilis gene=recA sample=S2
+ATGGCATTTGATGAGAATAAAGCAGGCGAA
+>SEQ-003|Taxon=Pseudomonas_putida|gene=gyrB|sample=S3
+ATGACCGTGGAAAACCTGCTGCTGATCGAA
+>seq004|taxon=Escherichia_coli|gene=gyrB|sample=S4
+ATGCCGCTGGAAGCGTTAGCAGATGATGAA
+>seq002|taxon=Bacillus_subtilis|gene=spo0A|sample=S5
+ATGGATAAAGAACTGATCGATGCCAACGAA
